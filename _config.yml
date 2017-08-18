@@ -6,7 +6,7 @@ title: KeplerJs Documentation
 propertytitle: KeplerJs Documentation
 subtitle: KeplerJs documentation pages
 description: KeplerJs documentation pages
-logo: '/images/logo-300.png'
+logo: '/images/logo-100.png'
 author: Stefano Cudini
 language:
 timezone:
@@ -48,9 +48,9 @@ social_links:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://keplerjs.github.io/docs/
+url: https://keplerjs.github.io/
 #url: http://0.0.0.0:4000/
-root: /
+root: /docs/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
