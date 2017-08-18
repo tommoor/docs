@@ -1,6 +1,7 @@
 ---
-title: Docs
+title: Documentation pages
 ---
 
-KeplerJs documentation pages
 
+
+![KeplerJs](images/logo-text.png) 

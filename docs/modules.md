@@ -2,7 +2,7 @@
 title: Modules
 ---
 
-*(client,server)*
+*(client, server)*
 
 Contains *methods*, *subscriptions* and *business logic* that can be used in other parts of the code, often in views, models or other modules.
 * [K.Cache](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-core/modules/Cache.js)

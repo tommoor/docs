@@ -17,6 +17,7 @@ sidebar_categories:
   Getting Started:
     - install
   Overview:
+    - features 
     - architecture
     - packages    
   #   - base

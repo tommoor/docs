@@ -2,7 +2,8 @@
 title: Configurations
 ---
 
-### (client,server):
+*(client, server)*
+
 Any basic configuration can be extended by plugins with their *plugin.js* file
 * [K.schemas](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-core/modules/schemas.js)
   defines structures for documents in the collections, can be extended by *Kepler plugins* to host the plugin fields
