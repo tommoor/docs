@@ -6,7 +6,6 @@ title: KeplerJs Documentation
 propertytitle: KeplerJs Documentation
 subtitle: KeplerJs documentation pages
 description: KeplerJs documentation pages
-logo: '/images/logo-100.png'
 author: Stefano Cudini
 language:
 timezone:
@@ -14,9 +13,8 @@ versions:
   - '1.1.0'
 sidebar_categories:
   null:
-    - index
+    - introduction
   Getting Started:
-  #  - features
     - install
   Overview:
     - architecture
