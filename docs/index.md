@@ -1,5 +1,5 @@
 ---
-title: Documentation
+title: Docs
 ---
 
 KeplerJs documentation pages
