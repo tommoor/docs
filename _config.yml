@@ -15,27 +15,29 @@ versions:
 sidebar_categories:
   null:
     - index
+  Getting Started:
+  #  - features
+    - install
   Overview:
-    - features
     - architecture
-    - KeplerJs
-    - packages
-  Architecture:
-    - base
-    - plugins
-  API:
+    - packages    
+  #   - base
+  #   - plugins
+  Api:
+    - namespace
     - models
     - modules
     - configurations
-    - filters
-    - schemas
-    - settings    
-  Packages:
-    - core
-    - payments
-  Resources:
-    - plugins
-    - themes
+    - placeholders
+  #   - filters
+  #   - schemas
+  #   - settings    
+  #Packages:
+  #   - core
+  #   - payments
+  #Resources:
+  #   - plugins
+  #   - themes
 
 github_repo: keplerjs/kepler-docs
 content_root: docs
@@ -47,6 +49,7 @@ social_links:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://kepler-docs.github.io/
+#url: http://0.0.0.0:4000/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -54,6 +57,7 @@ permalink_defaults:
 # Directory
 source_dir: docs
 public_dir: public
+
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
