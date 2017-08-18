@@ -39,7 +39,7 @@ sidebar_categories:
   #   - plugins
   #   - themes
 
-github_repo: keplerjs/kepler-docs
+github_repo: keplerjs/docs
 content_root: docs
 
 social_links:
@@ -48,7 +48,7 @@ social_links:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://kepler-docs.github.io/
+url: https://keplerjs.github.io/docs/
 #url: http://0.0.0.0:4000/
 root: /
 permalink: :year/:month/:day/:title/
@@ -110,5 +110,5 @@ theme: keplerjs
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:Keplerjs/kepler-docs.git
+  repository: git@github.com:Keplerjs/docs.git
   branch: gh-pages
