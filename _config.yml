@@ -14,8 +14,9 @@ versions:
 sidebar_categories:
   null:
     - introduction
-  Getting Started:
+  Get Started:
     - install
+    - settings    
   Overview:
     - features 
     - architecture
