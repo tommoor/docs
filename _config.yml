@@ -100,11 +100,11 @@ plugins:
 #  - hexo-generator-cname
 
 ## Themes: http://hexo.io/themes/
-theme: meteor
+theme: keplerjs
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/Keplerjs/kepler-docs
+  repository: git@github.com:Keplerjs/kepler-docs.git
   branch: gh-pages
