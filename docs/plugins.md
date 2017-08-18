@@ -28,6 +28,6 @@ title: Plugins
 * [keplerjs:tracks](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-tracks)
 * [keplerjs:weather](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-weather)
 
-####  3rd party Plugins
+##  3rd party Plugins
 
-*Are expected to be developed by the great community of Meteor developers...*
+Are expected to be developed by the great community of Meteor developers...

@@ -21,8 +21,8 @@ sidebar_categories:
     - features 
     - architecture
     - packages    
-  #   - base
-  #   - plugins
+    - plugins
+    - themes
   Api:
     - namespace
     - models
@@ -36,8 +36,7 @@ sidebar_categories:
   #   - core
   #   - payments
   #Resources:
-  #   - plugins
-  #   - themes
+  
 
 github_repo: keplerjs/docs
 content_root: docs
