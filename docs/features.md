@@ -2,6 +2,7 @@
 title: Features
 ---
 For complex development reasons they have been included in the [base packages](packages.html) and also they are the basic features of a social platform.
+Each plugin installed can add new functionality to the platform then refer to the plugin's documentation to learn more.
 
 ## Internationalization
 It can be extended to others languages through the package: [keplerjs:i18n](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-i18n)
@@ -26,6 +27,5 @@ or within each plugins in ```/i18ns``` folder.
 ## Searching
 - users by name
 - places by name, date and proximity
-
 
 
