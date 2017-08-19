@@ -159,6 +159,13 @@
             
               
               <li class="item-toc ">
+                <a href="technology.html" class="sidebar-link ">
+                  <span>Technology</span>
+                </a>
+              </li>
+            
+              
+              <li class="item-toc ">
                 <a href="architecture.html" class="sidebar-link ">
                   <span>Architecture</span>
                 </a>
@@ -251,10 +258,10 @@
     </div>
 
     <div class="document-formatting">
-      <h1 id="UI-Placeholders"><a href="#UI-Placeholders" class="headerlink" title="UI Placeholders"></a>UI Placeholders</h1><p>Kepler implements a convenient mechanism to give plugins the ability to extend the platform’s basic structure.<br>Using the dynamic template <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-ui/client/views/pluginPlaceholder.js" target="_blank" rel="external">pluginPlaceholder</a> and register the plugin’s templates inside the <em>plugin.js</em> in the section placeholders.</p>
+      <h1 id="UI-Placeholders"><a href="#UI-Placeholders" class="headerlink" title="UI Placeholders"></a>UI Placeholders</h1><p>Kepler implements a convenient mechanism to give plugins the ability to extend the platform’s basic structure.<br>Using the dynamic template <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-ui/client/views/pluginPlaceholder.js" target="_blank" rel="external">pluginPlaceholder</a> and register the plugin’s templates inside the <a href="architecture.html#Plugin-js">plugin.js</a> in the section placeholders.</p>
 <p>Here an example of placeholders for the plugin <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-share/plugin.js" target="_blank" rel="external">keplerjs:share</a><br><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">K</span><span class="selector-class">.Plugin</span>(&#123;</span><br><span class="line">    <span class="attribute">name</span>: <span class="string">'share'</span>,</span><br><span class="line">    <span class="attribute">placeholders</span>: &#123;</span><br><span class="line">        <span class="attribute">panelPlace</span>: [<span class="string">'panelPlace_share'</span>],</span><br><span class="line">        <span class="attribute">popupCursor</span>: <span class="string">'popupCursor_share'</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
 <p>Any plugin can be define one or many templates for each placeholder.</p>
-<p>The placeholders positioned inside the template <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-ui/client/views/panels/place.html#L45" target="_blank" rel="external">panelPlace</a> and<br><a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-ui/client/views/popups.html" target="_blank" rel="external">popupCursor</a><br><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="keyword">template</span> name=<span class="string">"panelPlace"</span>&gt;</span><br><span class="line">...</span><br><span class="line">    &#123;&#123;&gt; pluginPlaceholder name=<span class="string">'panelPlace'</span>&#125;&#125;</span><br><span class="line">...</span><br><span class="line">&lt;/<span class="keyword">template</span>&gt;</span><br></pre></td></tr></table></figure></p>
+<p>The placeholders positioned inside the template <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-ui/client/views/panels/place.html#L45" target="_blank" rel="external">panelPlace</a> and <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-ui/client/views/popups.html" target="_blank" rel="external">popupCursor</a><br><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="keyword">template</span> name=<span class="string">"panelPlace"</span>&gt;</span><br><span class="line">...</span><br><span class="line">    &#123;&#123;&gt; pluginPlaceholder name=<span class="string">'panelPlace'</span>&#125;&#125;</span><br><span class="line">...</span><br><span class="line">&lt;/<span class="keyword">template</span>&gt;</span><br></pre></td></tr></table></figure></p>
 
     </div>
   </div>
