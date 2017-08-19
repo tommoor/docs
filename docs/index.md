@@ -1,5 +1,6 @@
 
-![KeplerJs](images/logo-text.png) 
+![KeplerJs](images/keplerjs.png) 
+
 **The open source full-stack geo-social network platform**
 
 * [Official DEMO](https://keplerjs.herokuapp.com/)
