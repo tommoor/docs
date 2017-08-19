@@ -26,3 +26,6 @@ or within each plugins in ```/i18ns``` folder.
 ## Searching
 - users by name
 - places by name, date and proximity
+
+
+
