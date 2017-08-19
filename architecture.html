@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 
     <!-- Basic -->
-    <title>Architecture | KeplerJs Documentation</title>
+    <title>Architecture</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="images/favicon.ico" sizes="16x16 32x32 64x64">
@@ -173,13 +173,6 @@
             
               
               <li class="item-toc ">
-                <a href="packages.html" class="sidebar-link ">
-                  <span>Packages</span>
-                </a>
-              </li>
-            
-              
-              <li class="item-toc ">
                 <a href="plugins.html" class="sidebar-link ">
                   <span>Plugins</span>
                 </a>
@@ -259,6 +252,13 @@
 
     <div class="document-formatting">
       <p>Kepler uses a <a href="http://experimentsinmeteor.com/package-based-architecture/" target="_blank" rel="external">package-based</a> architecture, meaning that the entirety of its codebase resides in <a href="https://github.com/Keplerjs/Kepler/tree/master/packages" target="_blank" rel="external">/packages</a>.</p>
+<h2 id="Base-packages"><a href="#Base-packages" class="headerlink" title="Base packages"></a>Base packages</h2><p>These packages are indispensable for basic platform operation. And observing dependency relationships should be loaded into this exact order:</p>
+<ul>
+<li><a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-lib" target="_blank" rel="external">keplerjs:lib</a></li>
+<li><a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-i18n" target="_blank" rel="external">keplerjs:i18n</a></li>
+<li><a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-core" target="_blank" rel="external">keplerjs:core</a></li>
+<li><a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-ui" target="_blank" rel="external">keplerjs:ui</a></li>
+</ul>
 <h2 id="Plugins-packages"><a href="#Plugins-packages" class="headerlink" title="Plugins packages"></a>Plugins packages</h2><p>The Kepler plugin packages provide useful features for your Kepler application. A <em>plugin package</em> only need to make your own package depend on <em>keplerjs:core</em> or others plugins if needed.</p>
 <h2 id="Plugin-js"><a href="#Plugin-js" class="headerlink" title="Plugin.js"></a>Plugin.js</h2><p>A <strong>Kepler plugin</strong> is a standard Meteor package that contains a <strong>plugin.js</strong> file that defines the behaviors and configuration in the kepler environment, similar in concept to <a href="http://docs.meteor.com/api/packagejs.html" target="_blank" rel="external">Package.js</a>.</p>
 
@@ -278,9 +278,9 @@
       
       
         <a class="link primary next"
-          href="packages.html">
+          href="plugins.html">
           <span class="subtitle-pagination">Next</span>
-          Packages
+          Plugins
           <span class="icon-arrow-right-alt"></span>
         </a>
       
