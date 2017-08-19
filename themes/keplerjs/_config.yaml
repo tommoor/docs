@@ -1,7 +1,7 @@
 logo:
   #nav_mobile: images/logo-apollo-space-left.svg
   #subbrand: images/logo-apollo-subbrands-developers-space.svg
-  src: '/images/logo-300.png'
+  src: '/images/keplerjs.png'
   title: KepleJs Docs
   url: https://keplerjs.github.io/docs
 
