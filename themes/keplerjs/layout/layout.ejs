@@ -8,18 +8,18 @@
     <meta name="description" content="<%- page.description %>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="<%- theme.favicon || 'https://www.meteor.com/favicon.png' %>" sizes="16x16 32x32 64x64">
-
+	<link rel="image_src" href="<%- theme.logo.src %>" />
     <!-- Social -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="<%- config.url %>">
     <meta property="og:title" content="<%- page.title %> | <%- config.title %>">
-    <meta property="og:description" content="<%- page.description %>">
-    <meta property="og:image" content="<%- config.logo && config.logo.desktop || theme.logo.desktop %>">
+    <meta property="og:description" content="<%- config.description %>">
+    <meta property="og:image" content="<%- theme.logo.src %>">
     <meta name="twitter:card" content="summary_image_large">
     <meta name="twitter:site" content="<%- theme.social_links.twitter %>">
     <meta name="twitter:title" content="<%- page.title %> | <%- config.title %>">
-    <meta name="twitter:description" content="<%- page.description %>">
-    <meta name="twitter:image" content="<%- config.logo && config.logo.desktop || theme.logo.desktop %>">
+    <meta name="twitter:description" content="<%- config.description %>">
+    <meta name="twitter:image" content="<%- theme.logo.src %>">
 
     <!-- Misc -->
     <meta name="google-site-verification" content="" />
