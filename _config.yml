@@ -19,7 +19,7 @@ sidebar_categories:
     - settings    
   Overview:
     - features 
-    - technology
+  #  - technology
     - architecture  
     - plugins
     - themes
@@ -28,13 +28,9 @@ sidebar_categories:
     - models
     - modules
     - configurations
-    - placeholders
-  #   - filters
-  #   - schemas
-  #   - settings    
+    - placeholders   
   #Packages:
   #   - core
-  #   - payments
   #Resources:
   
 
