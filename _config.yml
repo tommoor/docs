@@ -43,7 +43,7 @@ social_links:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://docs.keplerjs.io/
+url: http://docs.keplerjs.io/
 #url: http://0.0.0.0:4000/
 root: /
 permalink: :year/:month/:day/:title/
