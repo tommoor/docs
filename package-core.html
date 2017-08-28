@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 
     <!-- Basic -->
-    <title>Namespace</title>
+    <title>keplerjs:core</title>
     <meta name="description" content="The open source full-stack geosocial network platform">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="images/favicon.ico" sizes="16x16 32x32 64x64">
@@ -12,12 +12,12 @@
     <!-- Social -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="http://docs.keplerjs.io">
-    <meta property="og:title" content="Namespace">
+    <meta property="og:title" content="keplerjs:core">
     <meta property="og:description" content="The open source full-stack geosocial network platform">
     <meta property="og:image" content="images/logo-300.png">
     <meta name="twitter:card" content="summary_image_large">
     <meta name="twitter:site" content="@kepler_js">
-    <meta name="twitter:title" content="Namespace">
+    <meta name="twitter:title" content="keplerjs:core">
     <meta name="twitter:description" content="The open source full-stack geosocial network platform">
     <meta name="twitter:image" content="images/logo-300.png">
 
@@ -188,8 +188,8 @@
           <ul class="list-toc">
             
               
-              <li class="item-toc ">
-                <a href="package-core.html" class="sidebar-link ">
+              <li class="item-toc  current">
+                <a href="" class="sidebar-link  current">
                   <span>keplerjs:core</span>
                 </a>
               </li>
@@ -227,8 +227,8 @@
           <ul class="list-toc">
             
               
-              <li class="item-toc  current">
-                <a href="" class="sidebar-link  current">
+              <li class="item-toc ">
+                <a href="namespace.html" class="sidebar-link ">
                   <span>Namespace</span>
                 </a>
               </li>
@@ -271,20 +271,20 @@
 <div class="content">
   <div class="content-wrapper">
     <div class="header-content">
-      <h1 class="title-page">Namespace</h1>
+      <h1 class="title-page">keplerjs:core</h1>
       
 
       <div class="page-actions">
         <div class="actions-group">
-          <a class="btn tertiary small round lowercase" href="https://github.com/keplerjs/docs/tree/master/docs/namespace.md" target="_blank"><span class="icon-github"></span> <span>Edit on GitHub</span></a>
+          <a class="btn tertiary small round lowercase" href="https://github.com/keplerjs/docs/tree/master/docs/package-core.md" target="_blank"><span class="icon-github"></span> <span>Edit on GitHub</span></a>
           
         </div>
       </div>
     </div>
 
     <div class="document-formatting">
-      <p>Most of the logic and configuration modules are contained in <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-core/README.md" target="_blank" rel="external">keplerjs:core</a> under the <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-core/Kepler.js" target="_blank" rel="external">Kepler namespace</a> <strong>Kepler.</strong> or <strong>K.</strong> is the same thing. Inside this namespace the general rule is that <em>Modules</em> or <em>Models</em> are capitalized instead the configuration objects are lowercase.<br>The views that define the base <strong>User Interface</strong> structure of Kepler are contained in <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-ui/README.md" target="_blank" rel="external">keplerjs:ui</a>. This also contains the <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-ui/client/helpers.js" target="_blank" rel="external">helpers templates</a> used by all views and the minimum CSS essential for the behavior of the UI.</p>
-
+      <p>Contains the heart of Kepler, and itself depends on a set of core packages: <em>keplerjs:lib</em>, <em>keplerjs:i18n</em></p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line">├── client</span><br><span class="line">│   ├── Accounts<span class="selector-class">.js</span></span><br><span class="line">│   ├── Map<span class="selector-class">.js</span></span><br><span class="line">│   ├── Map_layers<span class="selector-class">.js</span></span><br><span class="line">│   ├── Map_controls<span class="selector-class">.js</span></span><br><span class="line">│   ├── Place<span class="selector-class">.js</span></span><br><span class="line">│   ├── Profile<span class="selector-class">.js</span></span><br><span class="line">│   ├── router<span class="selector-class">.js</span></span><br><span class="line">│   └── User<span class="selector-class">.js</span></span><br><span class="line">│</span><br><span class="line">├── collections</span><br><span class="line">│   ├── queries</span><br><span class="line">│   │   ├── places<span class="selector-class">.js</span></span><br><span class="line">│   │   └── users<span class="selector-class">.js</span></span><br><span class="line">│   │</span><br><span class="line">│   ├── places<span class="selector-class">.js</span></span><br><span class="line">│   └── users<span class="selector-class">.js</span></span><br><span class="line">│</span><br><span class="line">├── modules</span><br><span class="line">│   ├── Cache<span class="selector-class">.js</span></span><br><span class="line">│   ├── filters<span class="selector-class">.js</span></span><br><span class="line">│   ├── placeholders<span class="selector-class">.js</span></span><br><span class="line">│   ├── Plugin<span class="selector-class">.js</span></span><br><span class="line">│   ├── schemas<span class="selector-class">.js</span></span><br><span class="line">│   ├── settings<span class="selector-class">.js</span></span><br><span class="line">│   ├── Util_geo<span class="selector-class">.js</span></span><br><span class="line">│   ├── Util_humanize<span class="selector-class">.js</span></span><br><span class="line">│   ├── Util<span class="selector-class">.js</span></span><br><span class="line">│   └── Util_valid<span class="selector-class">.js</span></span><br><span class="line">│</span><br><span class="line">├── server</span><br><span class="line">│   ├── pubs</span><br><span class="line">│   │   ├── places<span class="selector-class">.js</span></span><br><span class="line">│   │   ├── profile<span class="selector-class">.js</span></span><br><span class="line">│   │   └── users<span class="selector-class">.js</span></span><br><span class="line">│   │</span><br><span class="line">│   ├── Accounts<span class="selector-class">.js</span></span><br><span class="line">│   ├── places<span class="selector-class">.js</span></span><br><span class="line">│   └── profile<span class="selector-class">.js</span></span><br><span class="line">│</span><br><span class="line">├── Kepler<span class="selector-class">.js</span></span><br><span class="line">└── package.js</span><br></pre></td></tr></table></figure>
     </div>
   </div>
 
@@ -293,17 +293,17 @@
       
       
         <a class="link primary prev"
-          href="contribute.html">
+          href="themes.html">
           <span class="icon-arrow-left-alt"></span>
           <span class="subtitle-pagination">Previous</span>
-          Contribute
+          Themes
         </a>
       
       
         <a class="link primary next"
-          href="models.html">
+          href="package-ui.html">
           <span class="subtitle-pagination">Next</span>
-          Models
+          keplerjs:ui
           <span class="icon-arrow-right-alt"></span>
         </a>
       
@@ -311,7 +311,7 @@
   </div>
 
   <div class="github">
-    <a class="link tertiary " href="https://github.com/keplerjs/docs/tree/master/docs/namespace.md" target="_blank">
+    <a class="link tertiary " href="https://github.com/keplerjs/docs/tree/master/docs/package-core.md" target="_blank">
       <span class="icon-github"></span>Edit on GitHub</a>
   </div>
 
