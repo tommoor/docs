@@ -7,7 +7,7 @@ title: Introduction
 **The open source full-stack geosocial network platform**
 
 * [Official DEMO](https://keplerjs.herokuapp.com/)
-* [Current Version 1.1.0](https://github.com/Keplerjs/Kepler/releases)
+* [Current Version 1.2.0](https://github.com/Keplerjs/Kepler/releases)
 
 # Links
 
