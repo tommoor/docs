@@ -17,7 +17,7 @@ Kepler is a open source [geosocial](https://en.wikipedia.org/wiki/Geosocial_netw
 The name as the best [Meteor](https://www.meteor.com/) tradition wants to remain in the space field, *Kepler* is inspired by [Kepler space telescope](https://en.wikipedia.org/wiki/Kepler_Mission) and wants to be seen as an sequel of the first and largest open source Meteor projects the old *Telescope* current *[VulcanJS](http://docs.vulcanjs.org/vulcan.html)*.
 
 ### Mission
-Allows users to collect and georeferencing places on a modern web-mapping interface, describe them accurately, create relationships, sharing with other users and create a social environment. In addition to creating new place you can import pre-existing objects from Openstreetmap creating a social layer over OpenStreetMap.
+Allows users to collect and georeferencing places on a modern web-mapping interface, describe them accurately, create relationships, sharing with other users and create a social environment. In addition to creating new place you can import pre-existing objects from Openstreetmap creating a social layer above it.
 A place in Kepler can be linked to metadata from different sources automatically, it can be anything that has a geographic location fixed or movable, real or virtual.
 
 ### Principles
