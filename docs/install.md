@@ -2,8 +2,8 @@
 title: Install
 ---
 
-Install the latest version of [Node](https://nodejs.org).
-Clone or download the [Kepler repo](https://github.com/Keplerjs/Kepler) locally, then:
+Install the latest version of [NodeJs](https://nodejs.org).
+[Download](https://github.com/Keplerjs/Kepler/releases) or clone the [Kepler repo](https://github.com/Keplerjs/Kepler) locally, then:
 ```sh
 npm install
 npm start
