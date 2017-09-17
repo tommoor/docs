@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 
     <!-- Basic -->
-    <title>Placeholders</title>
+    <title>Templates</title>
     <meta name="description" content="The open source full-stack geosocial network platform">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="images/favicon.ico" sizes="16x16 32x32 64x64">
@@ -12,12 +12,12 @@
     <!-- Social -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="http://docs.keplerjs.io">
-    <meta property="og:title" content="Placeholders">
+    <meta property="og:title" content="Templates">
     <meta property="og:description" content="The open source full-stack geosocial network platform">
     <meta property="og:image" content="images/logo-300.png">
     <meta name="twitter:card" content="summary_image_large">
     <meta name="twitter:site" content="@kepler_js">
-    <meta name="twitter:title" content="Placeholders">
+    <meta name="twitter:title" content="Templates">
     <meta name="twitter:description" content="The open source full-stack geosocial network platform">
     <meta name="twitter:image" content="images/logo-300.png">
 
@@ -62,6 +62,13 @@
     
       
       <div class="nav-item show-desktop false ">
+        <a class="link" href="https://twitter.com/Kepler_js"  >
+          <span>Twitter</span>
+        </a>
+      </div>
+    
+      
+      <div class="nav-item show-desktop false ">
         <a class="link" href="https://medium.com/keplerjs"  >
           <span>Blog</span>
         </a>
@@ -87,6 +94,12 @@
       <div class="panel-item "">
         <a class="" href="https://github.com/Keplerjs"  >
           <span>GitHub</span>
+        </a>
+      </div>
+    
+      <div class="panel-item "">
+        <a class="" href="https://twitter.com/Kepler_js"  >
+          <span>Twitter</span>
         </a>
       </div>
     
@@ -257,7 +270,7 @@
               
               <li class="item-toc  current">
                 <a href="" class="sidebar-link  current">
-                  <span>Placeholders</span>
+                  <span>Templates</span>
                 </a>
               </li>
             
@@ -271,22 +284,23 @@
 <div class="content">
   <div class="content-wrapper">
     <div class="header-content">
-      <h1 class="title-page">Placeholders</h1>
+      <h1 class="title-page">Templates</h1>
       
 
       <div class="page-actions">
         <div class="actions-group">
-          <a class="btn tertiary small round lowercase" href="https://github.com/keplerjs/docs/tree/master/docs/placeholders.md" target="_blank"><span class="icon-github"></span> <span>Edit on GitHub</span></a>
+          <a class="btn tertiary small round lowercase" href="https://github.com/keplerjs/docs/tree/master/docs/templates.md" target="_blank"><span class="icon-github"></span> <span>Edit on GitHub</span></a>
           
         </div>
       </div>
     </div>
 
     <div class="document-formatting">
-      <h1 id="UI-Placeholders"><a href="#UI-Placeholders" class="headerlink" title="UI Placeholders"></a>UI Placeholders</h1><p>Kepler implements a convenient mechanism to give plugins the ability to extend the platform’s basic structure.<br>Using the dynamic template <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-ui/client/views/pluginPlaceholder.js" target="_blank" rel="external">pluginPlaceholder</a> and register the plugin’s templates inside the <a href="architecture.html#Plugin-js">plugin.js</a> in the section placeholders.</p>
-<p>Here an example of placeholders for the plugin <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-share/plugin.js" target="_blank" rel="external">keplerjs:share</a><br><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">K</span><span class="selector-class">.Plugin</span>(&#123;</span><br><span class="line">    <span class="attribute">name</span>: <span class="string">'share'</span>,</span><br><span class="line">    <span class="attribute">placeholders</span>: &#123;</span><br><span class="line">        <span class="attribute">panelPlace</span>: [<span class="string">'panelPlace_share'</span>],</span><br><span class="line">        <span class="attribute">popupCursor</span>: <span class="string">'popupCursor_share'</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
-<p>Any plugin can be define one or many templates for each placeholder.</p>
-<p>The placeholders positioned inside the template <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-ui/client/views/panels/place.html#L45" target="_blank" rel="external">panelPlace</a> and <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-ui/client/views/popups.html" target="_blank" rel="external">popupCursor</a><br><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="keyword">template</span> name=<span class="string">"panelPlace"</span>&gt;</span><br><span class="line">...</span><br><span class="line">    &#123;&#123;&gt; pluginPlaceholder name=<span class="string">'panelPlace'</span>&#125;&#125;</span><br><span class="line">...</span><br><span class="line">&lt;/<span class="keyword">template</span>&gt;</span><br></pre></td></tr></table></figure></p>
+      <h1 id="Plugins-Templates"><a href="#Plugins-Templates" class="headerlink" title="Plugins Templates"></a>Plugins Templates</h1><p>Kepler implements a convenient mechanism to give plugins the ability to extend the platform’s basic UI structure.<br>Using the dynamic template <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-ui/client/views/pluginsTemplate.js" target="_blank" rel="external">pluginsTemplate</a> and register the plugin’s templates inside the <a href="architecture.html#Plugin-js">plugin.js</a> in the section templates.</p>
+<p>Here an example of templates for the plugin <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-share/plugin.js" target="_blank" rel="external">keplerjs:share</a><br><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">K</span><span class="selector-class">.Plugin</span>(&#123;</span><br><span class="line">    <span class="attribute">name</span>: <span class="string">'share'</span>,</span><br><span class="line">    <span class="attribute">templates</span>: &#123;</span><br><span class="line">        <span class="attribute">panelPlace</span>: [<span class="string">'panelPlace_share'</span>],</span><br><span class="line">        <span class="attribute">popupCursor</span>: <span class="string">'popupCursor_share'</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
+<p>Any plugin can be define one or many templates to include in default templates <em>panelPlace</em>, <em>popupCursor</em>.</p>
+<p>The templates positioned inside the template <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-ui/client/views/panels/place.html#L45" target="_blank" rel="external">panelPlace</a> and <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-ui/client/views/popups.html" target="_blank" rel="external">popupCursor</a><br><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="keyword">template</span> name=<span class="string">"panelPlace"</span>&gt;</span><br><span class="line">...</span><br><span class="line">    &#123;&#123;&gt; pluginsTemplate name=<span class="string">'panelPlace'</span>&#125;&#125;</span><br><span class="line">...</span><br><span class="line">&lt;/<span class="keyword">template</span>&gt;</span><br></pre></td></tr></table></figure></p>
+<p>A complete list of default extensible templates is defined in <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-core/modules/templates.js" target="_blank" rel="external">K.templates</a></p>
 
     </div>
   </div>
@@ -307,7 +321,7 @@
   </div>
 
   <div class="github">
-    <a class="link tertiary " href="https://github.com/keplerjs/docs/tree/master/docs/placeholders.md" target="_blank">
+    <a class="link tertiary " href="https://github.com/keplerjs/docs/tree/master/docs/templates.md" target="_blank">
       <span class="icon-github"></span>Edit on GitHub</a>
   </div>
 
