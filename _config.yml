@@ -38,10 +38,7 @@ sidebar_categories:
     - models
     - modules
     - configurations
-    - placeholders
-  #Packages:
-  #   - core
-  #Resources:
+    - templates
   
 
 github_repo: keplerjs/docs

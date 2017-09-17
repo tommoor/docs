@@ -12,8 +12,8 @@ Contains the heart of Kepler, and itself depends on a set of core packages: *kep
 │   ├── Map_controls.js
 │   ├── Place.js
 │   ├── Profile.js
-│   ├── router.js
-│   └── User.js
+│   ├── User.js
+│   └── router.js
 │
 ├── collections
 │   ├── queries
@@ -25,15 +25,17 @@ Contains the heart of Kepler, and itself depends on a set of core packages: *kep
 │
 ├── modules
 │   ├── Cache.js
-│   ├── filters.js
-│   ├── placeholders.js
 │   ├── Plugin.js
-│   ├── schemas.js
-│   ├── settings.js
+│   ├── Status.js
+│   ├── Util.js
 │   ├── Util_geo.js
 │   ├── Util_humanize.js
-│   ├── Util.js
-│   └── Util_valid.js
+│   ├── Util_valid.js
+│   │
+│   ├── filters.js
+│   ├── schemas.js
+│   ├── settings.js
+│   └── templates.js
 │
 ├── server
 │   ├── pubs
@@ -45,6 +47,5 @@ Contains the heart of Kepler, and itself depends on a set of core packages: *kep
 │   ├── places.js
 │   └── profile.js
 │
-├── Kepler.js
-└── package.js
+└── Kepler.js
 ```
