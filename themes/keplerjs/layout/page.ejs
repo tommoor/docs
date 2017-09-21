@@ -27,8 +27,9 @@
       </div>
     <% }) %>
   </div>
-</div>
+ 
 
+</div>
 <%- partial('partials/sidebar') %>
 <div class="content">
   <div class="content-wrapper">
@@ -38,9 +39,14 @@
         <div class="subtitle-page"><%- page.description %></div>
       <% } %>
 
+
       <div class="page-actions">
         <div class="actions-group">
-          <a class="btn tertiary small round lowercase" href="<%- githubUrl %>" target="_blank"><span class="icon-github"></span> <span>Edit on GitHub</span></a>
+          <a class="btn tertiary small round lowercase" href="<%- githubUrl %>" target="_blank">
+          	<span class="icon-github"></span> 
+          	<span>Edit on GitHub</span>
+          </a>
+          <img src="https://licensebuttons.net/l/by-sa/3.0/88x31.png" />
           <% if (page.discourseTopicId) { %>
             <a class="btn tertiary small round lowercase" href="https://forums.meteor.com/t/<%- page.discourseTopicId %>"><span class="icon-comment"></span> <span>Discuss</span></a>
           <% } %>

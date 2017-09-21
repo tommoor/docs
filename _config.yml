@@ -114,3 +114,7 @@ deploy:
   type: git
   repository: git@github.com:Keplerjs/docs.git
   branch: gh-pages
+
+livereload:
+  port: 35729
+  
