@@ -30,3 +30,4 @@ We expect them to be developed by the great community of Meteor developers.
 
 * [keplerjs:googlemaps](https://github.com/Keplerjs/keplerjs-googlemaps)
 * [keplerjs:wunderground](https://github.com/Keplerjs/keplerjs-wunderground)
+* [keplerjs:mapillary](https://github.com/Keplerjs/keplerjs-mapillary)

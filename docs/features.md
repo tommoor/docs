@@ -1,7 +1,7 @@
 ---
 title: Features
 ---
-For complex development reasons they have been included in the [base packages](packages.html) and also they are the basic features of a social platform.
+For complex development reasons they have been included in the [base packages](architecture.html#Base-packages) and also they are the basic features of a social platform.
 The plugins installed can add more features to the platform then refer to the  [plugins](plugins.html) documentation to learn more.
 
 ### User registration and login
