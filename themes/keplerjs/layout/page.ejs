@@ -27,7 +27,7 @@
       </div>
     <% }) %>
   </div>
- 
+
 
 </div>
 <%- partial('partials/sidebar') %>
@@ -46,7 +46,7 @@
           	<span class="icon-github"></span> 
           	<span>Edit on GitHub</span>
           </a>
-          <img src="https://licensebuttons.net/l/by-sa/3.0/88x31.png" />
+
           <% if (page.discourseTopicId) { %>
             <a class="btn tertiary small round lowercase" href="https://forums.meteor.com/t/<%- page.discourseTopicId %>"><span class="icon-comment"></span> <span>Discuss</span></a>
           <% } %>
@@ -95,10 +95,18 @@
     </div>
   </div>
 
-  <div class="github">
-    <a class="link tertiary " href="<%- githubUrl %>" target="_blank">
-      <span class="icon-github"></span>Edit on GitHub</a>
-  </div>
+	<div class="github">
+		<a class="link tertiary " href="<%- githubUrl %>" target="_blank">
+			<span class="icon-github"></span>Edit on GitHub
+		</a>
+	</div>
+	
+	<div class="license">
+		<a class="btn tertiary small round lowercase" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">
+			This contents is licensed under a Creative Commons
+			<img src="https://licensebuttons.net/l/by-sa/4.0/80x15.png" />
+		</a>
+	</div>
 
   <% if (page.discourseTopicId) { %>
     <div class="discourse-comments-wrapper content-wrapper">
@@ -107,7 +115,7 @@
 
     <script type="text/javascript">
       DiscourseEmbed = { discourseUrl: 'http://forums.meteor.com/',
-                         topicId: <%- page.discourseTopicId %> };
+                         topicId: '<%- page.discourseTopicId %>' };
 
       (function() {
         var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;

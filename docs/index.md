@@ -7,7 +7,7 @@ title: Introduction
 **The open source full-stack geosocial network platform**
 
 * [Official DEMO](https://demo.keplerjs.io/)
-* [Current Version 1.2.0](https://github.com/Keplerjs/Kepler/releases)
+* [Download](https://github.com/Keplerjs/Kepler/releases)
 
 # Links
 
@@ -22,11 +22,10 @@ A place in Kepler can be linked to metadata from different sources automatically
 
 ### Principles
 
-* **full-stack**: developed 100% in JavaScript using the [Meteor](https://www.meteor.com/) the best nodejs fullstack framework.
-* **real-time**: all events and changes within the platform are automatically transmitted from the server to the clients
-* **geosocial**: the main user interface is a web map contains objects that represent places, users and others
-* **framework**: gives developers the ability to extend basic functionalities through an environment and a API
-* **extensible**: development is based on an easily buildable plugin architecture
+* **fullstack**: developed 100% in JavaScript using the [Meteor](https://www.meteor.com/) the best [Nodejs](https://nodejs.org/) fullstack framework.
+* **realtime**: All events and changes within the platform are automatically transmitted from the server to the clients through [websockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API).
+* **geosocial**: The main user interface is a web map contains objects that represent places, users and others
+* **extensible**: Development is based on an easily buildable plugins [architecture](http://docs.keplerjs.io/architecture.html)
 
 
 ### Expectations
