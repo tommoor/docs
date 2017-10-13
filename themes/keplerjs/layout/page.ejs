@@ -103,25 +103,13 @@
 	
 	<div class="license">
 		<a class="btn tertiary small round lowercase" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">
-			This contents is licensed under a Creative Commons
+			Licensed under Creative Commons
 			<img src="https://licensebuttons.net/l/by-sa/4.0/80x15.png" />
 		</a>
 	</div>
 
-  <% if (page.discourseTopicId) { %>
-    <div class="discourse-comments-wrapper content-wrapper">
-      <div id='discourse-comments'></div>
+    <div class="content-wrapper">
+      <div id="disqus_thread"></div>
     </div>
 
-    <script type="text/javascript">
-      DiscourseEmbed = { discourseUrl: 'http://forums.meteor.com/',
-                         topicId: '<%- page.discourseTopicId %>' };
-
-      (function() {
-        var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
-        d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
-      })();
-    </script>
-  <% } %>
 </div>

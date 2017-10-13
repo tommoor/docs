@@ -16,8 +16,9 @@ sidebar_categories:
     - index
   
   Get Started:
-    - install
-    - settings    
+    - quick-start
+    - deployment
+    - settings 
   
   Overview:
     - features 
@@ -117,4 +118,5 @@ deploy:
 
 livereload:
   port: 35729
-  
+
+disqus_shortname: docs-keplerjs

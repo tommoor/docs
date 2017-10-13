@@ -1,5 +1,5 @@
 ---
-title: Install
+title: Quick Start
 ---
 
 Install the latest version of [NodeJs](https://nodejs.org).
