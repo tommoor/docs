@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 
     <!-- Basic -->
-    <title>Install</title>
+    <title>Deployment</title>
     <meta name="description" content="The open source full-stack geosocial network platform">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="images/favicon.ico" sizes="16x16 32x32 64x64">
@@ -12,12 +12,12 @@
     <!-- Social -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="http://docs.keplerjs.io">
-    <meta property="og:title" content="Install">
+    <meta property="og:title" content="Deployment">
     <meta property="og:description" content="The open source full-stack geosocial network platform">
     <meta property="og:image" content="images/logo-300.png">
     <meta name="twitter:card" content="summary_image_large">
     <meta name="twitter:site" content="@kepler_js">
-    <meta name="twitter:title" content="Install">
+    <meta name="twitter:title" content="Deployment">
     <meta name="twitter:description" content="The open source full-stack geosocial network platform">
     <meta name="twitter:image" content="images/logo-300.png">
 
@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="/style/style.css">
   </head>
   <body class="">
+
     
 
 <div class="nav dark">
@@ -142,9 +143,16 @@
           <ul class="list-toc">
             
               
+              <li class="item-toc ">
+                <a href="quick-start.html" class="sidebar-link ">
+                  <span>Quick Start</span>
+                </a>
+              </li>
+            
+              
               <li class="item-toc  current">
                 <a href="" class="sidebar-link  current">
-                  <span>Install</span>
+                  <span>Deployment</span>
                 </a>
               </li>
             
@@ -285,13 +293,13 @@
 <div class="content">
   <div class="content-wrapper">
     <div class="header-content">
-      <h1 class="title-page">Install</h1>
+      <h1 class="title-page">Deployment</h1>
       
 
 
       <div class="page-actions">
         <div class="actions-group">
-          <a class="btn tertiary small round lowercase" href="https://github.com/keplerjs/docs/tree/master/docs/install.md" target="_blank">
+          <a class="btn tertiary small round lowercase" href="https://github.com/keplerjs/docs/tree/master/docs/deployment.md" target="_blank">
           	<span class="icon-github"></span> 
           	<span>Edit on GitHub</span>
           </a>
@@ -302,8 +310,13 @@
     </div>
 
     <div class="document-formatting">
-      <p>Install the latest version of <a href="https://nodejs.org" target="_blank" rel="external">NodeJs</a>.<br><a href="https://github.com/Keplerjs/Kepler/releases" target="_blank" rel="external">Download</a> or clone the <a href="https://github.com/Keplerjs/Kepler" target="_blank" rel="external">Kepler repo</a> locally, then:<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br><span class="line">npm start</span><br></pre></td></tr></table></figure></p>
-<p>And open <em><a href="http://localhost:3000/" target="_blank" rel="external">http://localhost:3000/</a></em> in your browser.</p>
+      <p>Install the latest version of <a href="https://www.mongodb.com/" target="_blank" rel="external">MongoDB</a>.</p>
+<p>The directory <a href="https://github.com/Keplerjs/Kepler/tree/master/private" target="_blank" rel="external">/private</a> contains usefull scripts and configurations for production environment:</p>
+<ul>
+<li><a href="https://github.com/Keplerjs/Kepler/tree/master/private/nginx.conf" target="_blank" rel="external">nginx.conf</a></li>
+<li><a href="https://github.com/Keplerjs/Kepler/tree/master/private/settings.sample.conf" target="_blank" rel="external">settings.sample.conf</a></li>
+<li><a href="https://github.com/Keplerjs/Kepler/tree/master/private/start.sh" target="_blank" rel="external">start.sh</a></li>
+</ul>
 
     </div>
   </div>
@@ -313,10 +326,10 @@
       
       
         <a class="link primary prev"
-          href="index.html">
+          href="quick-start.html">
           <span class="icon-arrow-left-alt"></span>
           <span class="subtitle-pagination">Previous</span>
-          Introduction
+          Quick Start
         </a>
       
       
@@ -331,30 +344,46 @@
   </div>
 
 	<div class="github">
-		<a class="link tertiary " href="https://github.com/keplerjs/docs/tree/master/docs/install.md" target="_blank">
+		<a class="link tertiary " href="https://github.com/keplerjs/docs/tree/master/docs/deployment.md" target="_blank">
 			<span class="icon-github"></span>Edit on GitHub
 		</a>
 	</div>
 	
 	<div class="license">
 		<a class="btn tertiary small round lowercase" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">
-			This contents is licensed under a Creative Commons
+			Licensed under Creative Commons
 			<img src="https://licensebuttons.net/l/by-sa/4.0/80x15.png" />
 		</a>
 	</div>
 
-  
+    <div class="content-wrapper">
+      <div id="disqus_thread"></div>
+    </div>
+
 </div>
 
     <script src="/script/smooth-scroll.min.js"></script>
     <script src="/script/main.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/fastclick/1.0.6/fastclick.min.js"></script>
-
-
     <script>
       
     </script>
+	<script>
+	
+	  var disqus_shortname = 'docs-keplerjs';
+	  var disqus_url = 'http://docs.keplerjs.io/deployment.html';
+	  
+	  (function(){
+	    var dsq = document.createElement('script');
+	    dsq.type = 'text/javascript';
+	    dsq.async = true;
+	    dsq.src = '//go.disqus.com/embed.js';
+	    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	  })();
+	
+	</script>
+	
 
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

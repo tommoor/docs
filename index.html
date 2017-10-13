@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="/style/style.css">
   </head>
   <body class="">
+
     
 
 <div class="nav dark">
@@ -143,8 +144,15 @@
             
               
               <li class="item-toc ">
-                <a href="install.html" class="sidebar-link ">
-                  <span>Install</span>
+                <a href="quick-start.html" class="sidebar-link ">
+                  <span>Quick Start</span>
+                </a>
+              </li>
+            
+              
+              <li class="item-toc ">
+                <a href="deployment.html" class="sidebar-link ">
+                  <span>Deployment</span>
                 </a>
               </li>
             
@@ -330,9 +338,9 @@
       
       
         <a class="link primary next"
-          href="install.html">
+          href="quick-start.html">
           <span class="subtitle-pagination">Next</span>
-          Install
+          Quick Start
           <span class="icon-arrow-right-alt"></span>
         </a>
       
@@ -347,23 +355,39 @@
 	
 	<div class="license">
 		<a class="btn tertiary small round lowercase" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">
-			This contents is licensed under a Creative Commons
+			Licensed under Creative Commons
 			<img src="https://licensebuttons.net/l/by-sa/4.0/80x15.png" />
 		</a>
 	</div>
 
-  
+    <div class="content-wrapper">
+      <div id="disqus_thread"></div>
+    </div>
+
 </div>
 
     <script src="/script/smooth-scroll.min.js"></script>
     <script src="/script/main.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/fastclick/1.0.6/fastclick.min.js"></script>
-
-
     <script>
       
     </script>
+	<script>
+	
+	  var disqus_shortname = 'docs-keplerjs';
+	  var disqus_url = 'http://docs.keplerjs.io/index.html';
+	  
+	  (function(){
+	    var dsq = document.createElement('script');
+	    dsq.type = 'text/javascript';
+	    dsq.async = true;
+	    dsq.src = '//go.disqus.com/embed.js';
+	    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	  })();
+	
+	</script>
+	
 
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
