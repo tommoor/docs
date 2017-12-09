@@ -18,16 +18,14 @@ In addition, these packages show content with a better look and allow the data e
 * [keplerjs:theme](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-theme) include custom CSS styles icons and images
 * [keplerjs:edit](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-edit) KeplerJs plugin to edit/remove places's data
 
-All this set of *base packages* can be included in a single hit by installing the meta-package [keplerjs:base](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-base).
-Probably your starting case study will need only this package.
+All this set of *base packages* can be included in a single hit by installing the meta-package [keplerjs:base](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-base), probably your starting case study will need only this package.
 
 ## Plugins packages
 The Kepler [plugin packages](plugins.html) provide useful features for your Kepler application. A *plugin package* only need to make your own package depend on *keplerjs:core* or others plugins if needed.
 
 ## Plugin.js
 
-A **Kepler plugin** is a standard Meteor package that contains a **plugin.js** file that defines the UI structure and configuration in the kepler environment, similar in concept to [Package.js](http://docs.meteor.com/api/packagejs.html).
-The following is an example of the plugin.js implements by *keplerjs:conver*
+A **Kepler plugin** is a standard Meteor package that contains a **plugin.js** file that defines the UI structure, custom settings and others configuration in the kepler environment, similar in concept to [Package.js](http://docs.meteor.com/api/packagejs.html). The following is an example of a plugin definition:
 
 ```javascript
 
@@ -70,5 +68,3 @@ K.Plugin({
   }	
 });
 ```
-
-For a better understanding, you can consult the plugins config, such as [keplerjs:conver](https://github.com/Keplerjs/Kepler/blob/master/packages/keplerjs-conver/plugin.js) contains a complex plugin definition example.
