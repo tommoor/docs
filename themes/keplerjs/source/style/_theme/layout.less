@@ -127,10 +127,20 @@ body {
 }
 
 @media print {
+  .content {
+    padding-top: 0;
+  }
   .nav,
   .nav-group.right,
   .pagination,
   #disqus_thread {
     display:none
+  }
+  
+  .document-formatting p a:link,
+  .document-formatting li a:link,
+  .document-formatting p a:visited,
+  .document-formatting li a:visited {
+    color: #000
   }
 }
