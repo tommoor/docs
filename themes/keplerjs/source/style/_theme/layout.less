@@ -21,7 +21,7 @@ body {
 }
 
 .sidebar {
-  
+
   pointer-events: none;
 
   .position(fixed, @panel-width-tablet, auto, 0, 0, @sidebar-width);
@@ -123,5 +123,14 @@ body {
       overflow: hidden;
       opacity: 0;
     }
+  }
+}
+
+@media print {
+  .nav,
+  .nav-group.right,
+  .pagination,
+  #disqus_thread {
+    display:none
   }
 }
