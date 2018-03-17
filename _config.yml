@@ -40,6 +40,7 @@ sidebar_categories:
     - modules
     - configurations
     - templates
+    - plugin-js    
   
 
 github_repo: keplerjs/docs

@@ -16,7 +16,6 @@ these are extremely useful for the basic operation and maintenance of the platfo
 ## Optionals
 these implement non-essential functions or are necessary for the operation of other plugins
 
-* [**api**](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-api) implement a simple RESTful API for basic operations
 * [**stats**](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-stats) statistical data analysis
 * [**upload**](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-upload) general file upload and storage
 * [**geoinfo**](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-geoinfo) retrieve geographic informations from various datasources
