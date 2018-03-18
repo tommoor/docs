@@ -24,7 +24,7 @@ these implement non-essential functions or are necessary for the operation of ot
 ## Additionals
 these implement additional features that can be activated or deactivated
 
-* [**conver**](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-conver) public conversations and messages
+* [**convers**](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-convers) public conversations and messages
 * [**favorites**](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-favorites) user favorites and place voting
 * [**notif**](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-notif) notifications manager
 * [**pois**](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-pois) search Points Of Interest around a place
