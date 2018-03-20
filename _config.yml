@@ -31,10 +31,7 @@ sidebar_categories:
     - package-core
     - package-ui
     - package-lib
-    - package-i18n
-
-  Contribute:
-    - contribute    
+    - package-i18n  
   
   Api:
     - namespace
@@ -43,7 +40,9 @@ sidebar_categories:
     - configurations
     - templates
     - plugin-js    
-  
+
+  Contribute:
+    - contribute    
 
 github_repo: keplerjs/docs
 content_root: docs
