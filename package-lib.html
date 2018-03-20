@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 
     <!-- Basic -->
-    <title>keplerjs:ui</title>
+    <title>keplerjs:lib</title>
     <meta name="description" content="The open source full-stack geosocial network platform">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="images/favicon.ico" sizes="16x16 32x32 64x64">
@@ -12,12 +12,12 @@
     <!-- Social -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="http://docs.keplerjs.io">
-    <meta property="og:title" content="keplerjs:ui">
+    <meta property="og:title" content="keplerjs:lib">
     <meta property="og:description" content="The open source full-stack geosocial network platform">
     <meta property="og:image" content="images/logo-300.png">
     <meta name="twitter:card" content="summary_image_large">
     <meta name="twitter:site" content="@kepler_js">
-    <meta name="twitter:title" content="keplerjs:ui">
+    <meta name="twitter:title" content="keplerjs:lib">
     <meta name="twitter:description" content="The open source full-stack geosocial network platform">
     <meta name="twitter:image" content="images/logo-300.png">
 
@@ -217,15 +217,15 @@
               </li>
             
               
-              <li class="item-toc  current">
-                <a href="" class="sidebar-link  current">
+              <li class="item-toc ">
+                <a href="package-ui.html" class="sidebar-link ">
                   <span>keplerjs:ui</span>
                 </a>
               </li>
             
               
-              <li class="item-toc ">
-                <a href="package-lib.html" class="sidebar-link ">
+              <li class="item-toc  current">
+                <a href="" class="sidebar-link  current">
                   <span>keplerjs:lib</span>
                 </a>
               </li>
@@ -314,13 +314,13 @@
 <div class="content">
   <div class="content-wrapper">
     <div class="header-content">
-      <h1 class="title-page">keplerjs:ui</h1>
+      <h1 class="title-page">keplerjs:lib</h1>
       
 
 
       <div class="page-actions">
         <div class="actions-group">
-          <a class="btn tertiary small round lowercase" href="https://github.com/keplerjs/docs/tree/master/docs/package-ui.md" target="_blank">
+          <a class="btn tertiary small round lowercase" href="https://github.com/keplerjs/docs/tree/master/docs/package-lib.md" target="_blank">
           	<span class="icon-github"></span> 
           	<span>Edit on GitHub</span>
           </a>
@@ -331,9 +331,8 @@
     </div>
 
     <div class="document-formatting">
-      <p>KeplerJs base package for User Interface.</p>
-<p>Define the base front-end structure of Kepler app, the basic views and the minimum CSS for the html interface.</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line">├── views</span><br><span class="line">│   ├── items</span><br><span class="line">│   │   ├── place<span class="selector-class">.html</span></span><br><span class="line">│   │   ├── place<span class="selector-class">.js</span></span><br><span class="line">│   │   └── user<span class="selector-class">.html</span></span><br><span class="line">│   │</span><br><span class="line">│   ├── panels</span><br><span class="line">│   │   ├── place</span><br><span class="line">│   │   │   ├── histplace<span class="selector-class">.html</span></span><br><span class="line">│   │   │   └── info<span class="selector-class">.html</span></span><br><span class="line">│   │   │</span><br><span class="line">│   │   ├── user</span><br><span class="line">│   │   │   ├── bio<span class="selector-class">.html</span></span><br><span class="line">│   │   │   ├── friends<span class="selector-class">.html</span></span><br><span class="line">│   │   │   ├── friends<span class="selector-class">.js</span></span><br><span class="line">│   │   │   └── histuser<span class="selector-class">.html</span></span><br><span class="line">│   │   │ </span><br><span class="line">│   │   ├── friends<span class="selector-class">.html</span></span><br><span class="line">│   │   ├── friends<span class="selector-class">.js</span></span><br><span class="line">│   │   ├── panelList<span class="selector-class">.html</span></span><br><span class="line">│   │   ├── panelList<span class="selector-class">.js</span></span><br><span class="line">│   │   ├── place<span class="selector-class">.html</span></span><br><span class="line">│   │   ├── places<span class="selector-class">.html</span></span><br><span class="line">│   │   ├── places<span class="selector-class">.js</span></span><br><span class="line">│   │   ├── profile<span class="selector-class">.html</span></span><br><span class="line">│   │   ├── search<span class="selector-class">.html</span></span><br><span class="line">│   │   ├── search<span class="selector-class">.js</span></span><br><span class="line">│   │   ├── settings<span class="selector-class">.html</span></span><br><span class="line">│   │   ├── settings<span class="selector-class">.js</span></span><br><span class="line">│   │   ├── user<span class="selector-class">.html</span></span><br><span class="line">│   │   └── user<span class="selector-class">.js</span></span><br><span class="line">│   │</span><br><span class="line">│   ├── btnConnect<span class="selector-class">.html</span></span><br><span class="line">│   ├── btnConnect<span class="selector-class">.js</span></span><br><span class="line">│   ├── errors<span class="selector-class">.html</span></span><br><span class="line">│   ├── <span class="selector-tag">footer</span><span class="selector-class">.html</span></span><br><span class="line">│   ├── formLogin<span class="selector-class">.html</span></span><br><span class="line">│   ├── <span class="selector-tag">header</span><span class="selector-class">.html</span></span><br><span class="line">│   ├── loaders<span class="selector-class">.html</span></span><br><span class="line">│   ├── markers<span class="selector-class">.html</span></span><br><span class="line">│   ├── navSidebar<span class="selector-class">.html</span></span><br><span class="line">│   ├── pluginsTemplate<span class="selector-class">.html</span></span><br><span class="line">│   ├── pluginsTemplate<span class="selector-class">.js</span></span><br><span class="line">│   ├── popups<span class="selector-class">.html</span></span><br><span class="line">│   └── tabLocation<span class="selector-class">.html</span></span><br><span class="line">│</span><br><span class="line">├── helpers<span class="selector-class">.js</span></span><br><span class="line">│</span><br><span class="line">├── home<span class="selector-class">.html</span></span><br><span class="line">├── layouts<span class="selector-class">.html</span></span><br><span class="line">├── layouts<span class="selector-class">.js</span></span><br><span class="line">└── main.html</span><br></pre></td></tr></table></figure>
+      <p>Contains 3rd party libraries, some general classes and external meteor packages used by core and their base configurations</p>
+<figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">lib</span>/</span></span><br><span class="line">├── client</span><br><span class="line">│   ├── L.Cursor.js</span><br><span class="line">│   └── L.NodeIcon.js</span><br><span class="line">│</span><br><span class="line">├── config</span><br><span class="line">│   ├── leaflet.js</span><br><span class="line">│   ├── router.js</span><br><span class="line">│   ├── sAlert.js</span><br><span class="line">│   └── underscore.js</span><br><span class="line">│</span><br><span class="line">└── <span class="class"><span class="keyword">lib</span></span></span><br><span class="line">   ├── Class.js</span><br><span class="line">   ├── deepExtend.js</span><br><span class="line">   └── Latinize.js</span><br></pre></td></tr></table></figure>
     </div>
   </div>
 
@@ -342,17 +341,17 @@
       
       
         <a class="link primary prev"
-          href="package-core.html">
+          href="package-ui.html">
           <span class="icon-arrow-left-alt"></span>
           <span class="subtitle-pagination">Previous</span>
-          keplerjs:core
+          keplerjs:ui
         </a>
       
       
         <a class="link primary next"
-          href="package-lib.html">
+          href="package-i18n.html">
           <span class="subtitle-pagination">Next</span>
-          keplerjs:lib
+          keplerjs:i18n
           <span class="icon-arrow-right-alt"></span>
         </a>
       
@@ -360,7 +359,7 @@
   </div>
 
 	<div class="github">
-		<a class="link tertiary " href="https://github.com/keplerjs/docs/tree/master/docs/package-ui.md" target="_blank">
+		<a class="link tertiary " href="https://github.com/keplerjs/docs/tree/master/docs/package-lib.md" target="_blank">
 			<span class="icon-github"></span>Edit on GitHub
 		</a>
 	</div>
@@ -388,7 +387,7 @@
 	<script>
 	
 	  var disqus_shortname = 'docs-keplerjs';
-	  var disqus_url = 'http://docs.keplerjs.io/package-ui.html';
+	  var disqus_url = 'http://docs.keplerjs.io/package-lib.html';
 	  
 	  (function(){
 	    var dsq = document.createElement('script');
