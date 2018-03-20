@@ -30,6 +30,8 @@ sidebar_categories:
   Packages:
     - package-core
     - package-ui
+    - package-lib
+    - package-i18n
 
   Contribute:
     - contribute    
