@@ -9,17 +9,17 @@ In addition to this standard design adopted by many large-scale Meteor applicati
 
 These packages are mandatory for a basic presentation of data platform:
 
-* [keplerjs:lib](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-lib) includes 3rd party libraries and external meteor packages
-* [keplerjs:i18n](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-i18n) contains all languages for base packages
-* [keplerjs:core](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-core) implement the base business logic
-* [keplerjs:ui](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-ui) define the base User Interface
-* [keplerjs:api](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-api) implement a restful API for basic operations
+* [keplerjs:lib](https://github.com/Keplerjs/Kepler/tree/master/packages/lib) includes 3rd party libraries and external meteor packages
+* [keplerjs:i18n](https://github.com/Keplerjs/Kepler/tree/master/packages/i18n) contains all languages for base packages
+* [keplerjs:core](https://github.com/Keplerjs/Kepler/tree/master/packages/core) implement the base business logic
+* [keplerjs:ui](https://github.com/Keplerjs/Kepler/tree/master/packages/ui) define the base User Interface
+* [keplerjs:api](https://github.com/Keplerjs/Kepler/tree/master/packages/api) implement a restful API for basic operations
 
-All this set of *base packages* can be included in a single hit by installing the meta-package [keplerjs:base](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-base), probably your starting case study will need only this package. In addition, these *plugin packages* show content with a better look and allow the data entry by users:
+All this set of *base packages* can be included in a single hit by installing the meta-package [keplerjs:base](https://github.com/Keplerjs/Kepler/tree/master/packages/base), probably your starting case study will need only this package. In addition, these *plugin packages* show content with a better look and allow the data entry by users:
 
-* [keplerjs:theme](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-theme) include custom CSS styles icons and images
-* [keplerjs:edit](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-edit) plugin to edit/remove places's data
-* [keplerjs:admin](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-admin) plugin to administer the platform's data/users
+* [keplerjs:theme](https://github.com/Keplerjs/Kepler/tree/master/packages/theme) include custom CSS styles icons and images
+* [keplerjs:edit](https://github.com/Keplerjs/Kepler/tree/master/packages/edit) plugin to edit/remove places's data
+* [keplerjs:admin](https://github.com/Keplerjs/Kepler/tree/master/packages/admin) plugin to administer the platform's data/users
 
 In the following diagram the arrows represent the dependencies, the green blocks are the *base packages*, and the *plugin packages* are yellow:
 ![base packages](images/base-packages.png)

@@ -25,6 +25,6 @@ The plugins installed can add more features to the platform then refer to the  [
 - places by name, date and proximity
 
 ### Internationalization
--  extended to others languages through the package [keplerjs:i18n](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-i18n)
+-  extended to others languages through the package [keplerjs:i18n](https://github.com/Keplerjs/Kepler/tree/master/packages/i18n)
 -  within each plugins in ```/i18ns``` folder.
 
