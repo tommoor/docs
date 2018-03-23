@@ -11,12 +11,15 @@ Here an example of templates for the plugin [keplerjs:share](https://github.com/
 K.Plugin({
     name: 'share',
     templates: {
-        panelPlace: ['panelPlace_share'],
-        popupCursor: 'popupCursor_share'
+        panelPlace: {name:'panelPlace_share', order:-5},
+        popupCursor: 'popupCursor_share',
+        popupUser: 'popupCursor_share'
     }
 });
 ```
-Any plugin can be define one or many templates to include in default templates *panelPlace*, *popupCursor*.
+Any plugin can be define one or many templates to include in default template placeholders *panelPlace*, *popupCursor*,*popupUser*.
+At the property *panelPlace* is also specified the priority(*order*) of inserting the template respect to the other plugins, this value can be between *-10* and *+10* 
+
 
 The templates positioned inside the template [panelPlace](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-ui/client/views/panels/place.html#L45) and [popupCursor](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-ui/client/views/popups.html)
 ```
