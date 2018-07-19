@@ -6,7 +6,7 @@ title: Quick Start
 
 2. Install [Meteor](https://www.meteor.com/install), which is used as the KeplerJs build tool.
 
-3. [Download](https://github.com/Keplerjs/Kepler/releases) or clone the latest version of [Kepler](https://github.com/Keplerjs/Kepler) locally.
+3. [Download](https://github.com/Keplerjs/Kepler/releases) or clone the latest version of KeplerJs locally.
 
 4. ```npm install && npm start ```
 
