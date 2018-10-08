@@ -122,3 +122,7 @@ livereload:
   port: 35729
 
 disqus_shortname: docs-keplerjs
+
+sitemap:
+    path: sitemap.xml
+#    template: ./sitemap_template.xml
