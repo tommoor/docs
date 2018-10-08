@@ -36,12 +36,13 @@ these implement additional features that can be activated or deactivated
 ##  3rd party Plugins
 We expect them to be developed by the great community of NodeJs/Meteor developers.
 
-* [**googlemaps**](https://github.com/Keplerjs/googlemaps) load [Street View](https://developers.google.com/maps/documentation/streetview/) near a place by [Google Maps](https://developers.google.com/maps/) API
-* [**wunderground**](https://github.com/Keplerjs/wunderground) weather forecast in a place using [Weather Underground](https://www.wunderground.com/) API
-* [**mapillary**](https://github.com/Keplerjs/mapillary) connect to [Mapillary](https://www.mapillary.com/) API
-* [**foursquare**](https://github.com/Keplerjs/foursquare) connect to [Foursquare](https://foursquare.com/) API 
+* [**googlemaps**](https://github.com/Keplerjs/keplerjs-googlemaps) load [Street View](https://developers.google.com/maps/documentation/streetview/) near a place by [Google Maps](https://developers.google.com/maps/) API
+* [**wunderground**](https://github.com/Keplerjs/keplerjs-wunderground) weather forecast in a place using [Weather Underground](https://www.wunderground.com/) API
+* [**mapillary**](https://github.com/Keplerjs/keplerjs-mapillary) connect to [Mapillary](https://www.mapillary.com/) API
+* [**foursquare**](https://github.com/Keplerjs/keplerjs-foursquare) connect to [Foursquare](https://foursquare.com/) API 
+* [**openrouteservice**](https://github.com/Keplerjs/keplerjs-openrouteservice) connect to [OpenRouteService](https://openrouteservice.org/) API 
 
 ## Experimental Plugins
 Unstable plugins not to be used in production environment but useful for KeplerJs developers and mad scientists.
 
-* [robots](https://github.com/Keplerjs/robots) create robots users to test multi user interactions on the platform
+* [robots](https://github.com/Keplerjs/keplerjs-robots) create robots users to test multi user interactions on the platform
