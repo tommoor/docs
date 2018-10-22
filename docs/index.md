@@ -24,7 +24,7 @@ A place in Kepler can be linked to metadata from different sources automatically
 
 * **fullstack**: developed 100% in JavaScript using the [Meteor](https://www.meteor.com/) the best [Nodejs](https://nodejs.org/) fullstack framework.
 * **realtime**: All events and changes within the platform are automatically transmitted from the server to the clients through [websockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API).
-* **geosocial**: The main user interface is a web map contains objects that represent places, users and others
+* **geosocial**: The main user interface is a web map contains objects that represent places, users that interact with each other
 * **extensible**: Development is based on an easily buildable plugins [architecture](http://docs.keplerjs.io/architecture.html)
 
 
