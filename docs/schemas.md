@@ -63,7 +63,7 @@ Usually in some Kepler plugins these can be extended adding fields, through the 
 	}
 	```
 
-* example of custom schemas for the [plugin convers](https://github.com/Keplerjs/Kepler/blob/master/packages/convers/plugin.js):
+* custom schemas defined by [plugin convers](https://github.com/Keplerjs/Kepler/blob/master/packages/convers/plugin.js):
 	```
 	schemas: {
 		place: {
@@ -88,4 +88,34 @@ Usually in some Kepler plugins these can be extended adding fields, through the 
 			body: ''           //text content
 		}
 	}
-	``` 
+	```
+
+* custom schemas defined by [plugin geoinfo](https://github.com/Keplerjs/Kepler/blob/master/packages/geoinfo/plugin.js):
+	```
+	schemas: {
+		place: {
+			geoinfo: {
+				loc: [],	//location reference
+				ele: 0,	    //elevation from the sea level
+				esp: 0,     //aspect of the terrain model
+				prov: '',	//province
+				near: '',	//locality
+				com: '',	//municipality
+				reg: '',	//district
+				naz: '',	//country
+			}
+		}
+	}
+	```
+
+* custom schemas defined by [plugin edit](https://github.com/Keplerjs/Kepler/blob/master/packages/edit/plugin.js):
+	```
+	schemas: {
+		place: {
+			userId: null   //user creator of place
+		},
+		user: {
+			places: []	   //places created by user
+		}
+	}
+	```
