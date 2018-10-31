@@ -35,6 +35,7 @@ sidebar_categories:
   
   Api:
     - namespace
+    - schemas
     - models
     - modules
     - configurations
