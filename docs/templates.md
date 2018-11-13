@@ -40,4 +40,22 @@ Using *sep* parameter for define an html fragments between the blocks of rendere
 </template>
 ```
 
+The global templates configuration can be modified also by *settings.json* file, like in this example:
+```
+{
+	"public": {
+		"templates": {
+			"pageHome": {
+				"pageHome_theme": { "show": false }
+				//hide only the template pageHome_theme inside the placeholder pageHome
+			},
+			"footer": { "show": false }
+			//hide all templates of all plugins inside the placeholder footer
+		}
+	}
+}
+```
+See the [private/settings.light-ui.json](https://github.com/Keplerjs/Kepler/blob/master/private/settings.light-ui.json) file for clarity.
+
 A complete list of default extensible templates is defined in [K.templates](https://github.com/Keplerjs/Kepler/tree/master/packages/core/modules/templates.js)
+
