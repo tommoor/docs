@@ -20,6 +20,7 @@ these implement non-essential functions or are necessary for the operation of ot
 * [**upload**](https://github.com/Keplerjs/Kepler/tree/master/packages/upload) general file upload and storage
 * [**geoinfo**](https://github.com/Keplerjs/Kepler/tree/master/packages/geoinfo) retrieve geographic informations from various datasources
 * [**osm**](https://github.com/Keplerjs/Kepler/tree/master/packages/osm) support Openstreetmap and Overpass API
+* [**import**](https://github.com/Keplerjs/Kepler/tree/master/packages/import) import bulk data from external file in new places
 
 ## Additionals
 these implement additional features that can be activated or deactivated
