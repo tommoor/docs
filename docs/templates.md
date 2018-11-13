@@ -11,9 +11,10 @@ Here an example of templates for the plugin [keplerjs:share](https://github.com/
 K.Plugin({
     name: 'share',
     templates: {
-        panelPlace: {name:'panelPlace_share', order:-5},
-        popupCursor: 'popupCursor_share',
-        popupUser: 'popupCursor_share'
+        panelPlace: {
+        	'panelPlace_share': {order:-5}
+        },
+        popupCursor: 'popupCursor_share'
     }
 });
 ```
@@ -26,6 +27,15 @@ The templates positioned inside the template [panelPlace](https://github.com/Kep
 <template name="panelPlace">
 ...
     {{> pluginsTemplate name='panelPlace'}}
+...
+</template>
+```
+
+Using *sep* parameter for define an html fragments between the blocks of rendered plugins [panelSettings](https://github.com/Keplerjs/Kepler/tree/master/packages/keplerjs-ui/client/views/panels/settings.html)
+```
+<template name="panelSettings">
+...
+    {{> pluginsTemplate name='panelPlace' sep='<hr />'}}
 ...
 </template>
 ```
