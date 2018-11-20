@@ -32,7 +32,8 @@ these implement additional features that can be activated or deactivated
 * [**share**](https://github.com/Keplerjs/Kepler/tree/master/packages/share) sharing a place in social media channels
 * [**tracks**](https://github.com/Keplerjs/Kepler/tree/master/packages/tracks) manage gps tracks and paths around a place
 * [**categories**](https://github.com/Keplerjs/Kepler/tree/master/packages/categories) places and users categorization
-* [**events**](https://github.com/Keplerjs/Kepler/tree/master/packages/events) public events in place
+* [**events**](https://github.com/Keplerjs/Kepler/tree/master/packages/events) public events in place *(work in progress)*
+* [**photos**](https://github.com/Keplerjs/Kepler/tree/master/packages/photos) manage place photos and user avatars
 
 ##  3rd party Plugins
 We expect them to be developed by the great community of NodeJs/Meteor developers.
