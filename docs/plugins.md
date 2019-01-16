@@ -25,6 +25,7 @@ these implement non-essential functions or are necessary for the operation of ot
 ## Additionals
 these implement additional features that can be activated or deactivated
 
+* [keplerjs:api](https://github.com/Keplerjs/Kepler/tree/master/packages/api) implement a restful API for basic operations
 * [**convers**](https://github.com/Keplerjs/Kepler/tree/master/packages/convers) public conversations and messages
 * [**favorites**](https://github.com/Keplerjs/Kepler/tree/master/packages/favorites) user favorites and place voting
 * [**notifs**](https://github.com/Keplerjs/Kepler/tree/master/packages/notifs) notifications manager

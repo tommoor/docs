@@ -12,8 +12,7 @@ These packages are mandatory for a basic presentation of data platform:
 * [keplerjs:lib](https://github.com/Keplerjs/Kepler/tree/master/packages/lib) includes 3rd party libraries and external meteor packages
 * [keplerjs:i18n](https://github.com/Keplerjs/Kepler/tree/master/packages/i18n) contains all languages for base packages
 * [keplerjs:core](https://github.com/Keplerjs/Kepler/tree/master/packages/core) implement the base business logic
-* [keplerjs:ui](https://github.com/Keplerjs/Kepler/tree/master/packages/ui) define the base User Interface
-* [keplerjs:api](https://github.com/Keplerjs/Kepler/tree/master/packages/api) implement a restful API for basic operations
+* [keplerjs:core-ui](https://github.com/Keplerjs/Kepler/tree/master/packages/core-ui) define the base User Interface structure
 
 All this set of *base packages* can be included in a single hit by installing the meta-package [keplerjs:base](https://github.com/Keplerjs/Kepler/tree/master/packages/base), probably your starting case study will need only this package. In addition, these *plugin packages* show content with a better look and allow the data entry by users:
 
