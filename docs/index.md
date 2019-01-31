@@ -11,7 +11,7 @@ title: Introduction
 
 # Links
 
-[Website](http://keplerjs.io/) | [Documentation](http://docs.keplerjs.io/) | [Source code](https://github.com/Keplerjs) | [Issues](https://waffle.io/Keplerjs/Kepler) | [Roadmap](https://trello.com/b/FBK72QEJ/keplerjs-roadmap) | [Blog](https://medium.com/keplerjs) | [News](https://twitter.com/Kepler_JS) | [Plugins](https://atmospherejs.com/keplerjs)
+[Website](http://keplerjs.io/) | [Documentation](http://docs.keplerjs.io/) | [Source code](https://github.com/Keplerjs) | [Issues](https://waffle.io/Keplerjs/Kepler) | [Roadmap](http://bit.ly/KeplerJsRoadmap) | [Blog](https://medium.com/keplerjs) | [News](https://twitter.com/Kepler_JS) | [Plugins](https://atmospherejs.com/keplerjs)
 
 Kepler is a open source [geosocial](https://en.wikipedia.org/wiki/Geosocial_networking) general-purpose solution that lets users share favorite places and join discussions in real-time. It can be seen as a platform where users can interact with other open data platforms searching across [OpenStreetMap](http://www.openstreetmap.org/about), [Geonames](http://www.geonames.org/) among other sources.
 The name as the best [Meteor](https://www.meteor.com/) tradition wants to remain in the space field, *Kepler* is inspired by [Kepler space telescope](https://en.wikipedia.org/wiki/Kepler_Mission) a telescope that looks further *new potential places in the space*, moreover the project organization is inspired to the first and largest open source project built in Meteor the old *Telescope*(current *VulcanJS*).
