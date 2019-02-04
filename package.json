@@ -20,12 +20,15 @@
     "hexo-renderer-less": "^0.2.0",
     "hexo-renderer-marked": "^0.2.4",
     "hexo-server": "^0.1.2",
+    "jsdoc": "^3.5.5",
     "lodash": "^4.13.1",
     "nodemon": "^1.11.0",
-    "showdown": "^1.4.2"
+    "showdown": "^1.4.2",
+    "watch": "^1.0.2"
   },
   "scripts": {
     "start": "hexo serve",
+    "jsdoc": "watch 'jsdoc -c ./jsdoc.js -d jsdoc' ../kepler/packages",
     "deploy": "hexo deploy --generate"
   }
 }

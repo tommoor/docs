@@ -7,4 +7,4 @@ public/
 .deploy*/
 docs.json
 package-lock.json
-
+jsdoc/*
