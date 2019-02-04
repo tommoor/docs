@@ -12,9 +12,9 @@ The directory [/private](https://github.com/Keplerjs/Kepler/tree/master/private)
 
 
 To preparing for production environment following the guidelines of meteor applications, the complete documentation is available here
-[Meteor building for production](https://guide.meteor.com/mobile.html#building-for-production)
+[Meteor deployment docs](https://guide.meteor.com/deployment.html)
 
-Run this command to create a Meteor bundle
+For custom environment, run this command to create a generic NodeJS bundle
 ```
 meteor build <build-output-directory> --server=<host>:<port>
 ```
