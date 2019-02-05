@@ -8,8 +8,14 @@ module.exports = {
     //TODO excludeTags
 	"source": {
         "include": [
+            bpath+"core/Kepler.js",
+            bpath+"core/client/Map.js",
+            //bpath+"core/client/Map_controls.js",
+            //bpath+"core/client/Map_layers.js",
+            bpath+"core/client/Profile.js",
+            bpath+"core/client/Place.js",
+            bpath+"core/client/User.js",
         	bpath+"core/modules/",
-            //bpath+"core/modules/Util_geo.js",
         ],
         "includePattern": ".+\\.js$"
     }
