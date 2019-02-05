@@ -3,7 +3,6 @@ var bpath = "../kepler/packages/";
 
 module.exports = {
     "encoding": "utf8",
-    "destination": "./public/jsdoc",
     "recurse": true,
     "recurseDepth": 10,
     //TODO excludeTags

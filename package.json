@@ -28,7 +28,7 @@
   },
   "scripts": {
     "start": "hexo serve",
-    "jsdoc": "watch 'jsdoc -c ./jsdoc.js -d jsdoc' ../kepler/packages",
+    "jsdoc": "watch 'jsdoc -c ./jsdoc.js -d .deploy_git/jsdoc' ../kepler/packages",
     "deploy": "hexo deploy --generate"
   }
 }
