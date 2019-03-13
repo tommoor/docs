@@ -27,7 +27,7 @@
     "watch": "^1.0.2"
   },
   "scripts": {
-    "start": "hexo serve",
+    "start": "hexo serve -p 6060",
     "jsdoc": "watch 'jsdoc -c ./jsdoc.js -d ./public/jsdoc' ../kepler",
     "deploy": "hexo deploy --generate"
   }
