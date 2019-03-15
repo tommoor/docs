@@ -63,6 +63,7 @@ Usually in some Kepler plugins these can be extended adding fields, through the 
 	}
 	```
 
+### Examples in plugins
 * custom schemas defined by [plugin convers](https://github.com/Keplerjs/Kepler/blob/master/packages/convers/plugin.js):
 	```
 	schemas: {
