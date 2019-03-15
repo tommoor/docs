@@ -4,14 +4,16 @@ title: Deployment
 
 ## Requirements
 
-#### Resources
+Being KeplerJs a framework built above MeteorJs the system requirements are the same, so please refer to the documentation relating to meteorjs, in addition the steps to follow for a correct empty installation are the following
+
+#### Hardware
+
 * CPU ÷3GHz, >2 cores, >5K bogomips
 * RAM >2GB(required ÷800MB of free RAM for build process).
 * Disk Usage kepler installed + libraries min ÷400MB, empty database with minimal collections min ÷500MB
 
 #### System software
 
-* base system software
 from root:
 ```
 apt install curl git build-essential htop screen imagemagick
