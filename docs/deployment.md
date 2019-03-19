@@ -12,45 +12,11 @@ Being KeplerJs a framework built above MeteorJs the system requirements are the 
 * RAM >2GB(required ÷800MB of free RAM for build process).
 * Disk Usage kepler installed + libraries min ÷400MB, empty database with minimal collections min ÷500MB
 
-#### System software
+#### Software
 
-from root:
-```
-apt install curl git build-essential htop screen imagemagick
-```
-
-* database MongoDB(versions 3.x)
-from root:
-```
-apt install mongodb mongo-tools
-```
-
+* database MongoDB (versions 3.x)
 * NodeJs (versions 6.x/8.x/10.x)
-from root:
-```
-curl -sL https://deb.nodesource.com/setup_10.x -o ./nodesource_setup.sh
-apt update
-apt install nodejs
-```
-
-* MeteorJs(latest version)
-from root:
-```
-curl https://install.meteor.com/ | sh
-```
-
-#### Environment variables
-
-Alternatively use the [build.sh](https://github.com/Keplerjs/Kepler/tree/master/private/build.sh) script.
-The following environment variables are required: 
-```
-MONGO_URL="mongodb://localhost:27017/<DBNAME>"
-MAIL_URL="smtp://localhost:25"
-METEOR_SETTINGS=$(cat settings.json)
-ROOT_URL="http://<APPDOMAIN>"
-BIND_IP=<IPADDRESS>
-PORT=<PORT>
-```
+* MeteorJs (latest version)
 
 ## Scripts and Configurations
 
@@ -89,7 +55,6 @@ meteor build --directory <build-output-directory> --server=<host>:<port>
 ```
 
 *host* and *port* should be the public address of the server you want your app to connect to. This will generate a directory at *build-output-directory*, which includes a server bundle directory and the project source for each targeted mobile platform in the /ios and /android directories.
-
 To run main.js file using nodejs command:
 ```
 nodejs <build-output-directory>/main.js
