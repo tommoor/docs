@@ -219,7 +219,7 @@
               
               <li class="item-toc ">
                 <a href="package-ui.html" class="sidebar-link ">
-                  <span>keplerjs:ui</span>
+                  <span>keplerjs:core-ui</span>
                 </a>
               </li>
             
@@ -257,6 +257,13 @@
               <li class="item-toc ">
                 <a href="schemas.html" class="sidebar-link ">
                   <span>Schemas</span>
+                </a>
+              </li>
+            
+              
+              <li class="item-toc ">
+                <a href="filters.html" class="sidebar-link ">
+                  <span>Filters</span>
                 </a>
               </li>
             
@@ -338,13 +345,42 @@
     </div>
 
     <div class="document-formatting">
-      <p>Install the latest version of <a href="https://www.mongodb.com/" target="_blank" rel="external">MongoDB</a>.</p>
-<p>The directory <a href="https://github.com/Keplerjs/Kepler/tree/master/private" target="_blank" rel="external">/private</a> contains usefull scripts and configurations for production environment:</p>
-<ul>
-<li><a href="https://github.com/Keplerjs/Kepler/tree/master/private/nginx.conf" target="_blank" rel="external">nginx.conf</a></li>
-<li><a href="https://github.com/Keplerjs/Kepler/tree/master/private/settings.sample.json" target="_blank" rel="external">settings.sample.json</a></li>
-<li><a href="https://github.com/Keplerjs/Kepler/tree/master/private/start.sh" target="_blank" rel="external">start.sh</a></li>
+      <h2 id="Requirements"><a href="#Requirements" class="headerlink" title="Requirements"></a>Requirements</h2><p>Being KeplerJs a framework built above MeteorJs the system requirements are the same, so please refer to the documentation relating to meteorjs, in addition the steps to follow for a correct empty installation are the following</p>
+<h4 id="Hardware"><a href="#Hardware" class="headerlink" title="Hardware"></a>Hardware</h4><ul>
+<li>CPU ÷3GHz, &gt;2 cores, &gt;5K bogomips</li>
+<li>RAM &gt;2GB(required ÷800MB of free RAM for build process).</li>
+<li>Disk Usage kepler installed + libraries min ÷400MB, empty database with minimal collections min ÷500MB</li>
 </ul>
+<h4 id="Software"><a href="#Software" class="headerlink" title="Software"></a>Software</h4><ul>
+<li>database MongoDB (versions 3.x)</li>
+<li>NodeJs (versions 6.x/8.x/10.x)</li>
+<li>MeteorJs (latest version)</li>
+</ul>
+<h2 id="Scripts-and-Configurations"><a href="#Scripts-and-Configurations" class="headerlink" title="Scripts and Configurations"></a>Scripts and Configurations</h2><p>The directory <a href="https://github.com/Keplerjs/Kepler/tree/master/private" target="_blank" rel="external">/private</a>                         contains usefull scripts and configurations for development/production environments:</p>
+<h4 id="Development-environment"><a href="#Development-environment" class="headerlink" title="Development environment"></a>Development environment</h4><ul>
+<li><a href="https://github.com/Keplerjs/Kepler/tree/master/private/start.sh" target="_blank" rel="external">start.sh</a>                            start kepler in localhost for development</li>
+<li><a href="https://github.com/Keplerjs/Kepler/tree/master/private/settings.light-ui" target="_blank" rel="external">settings.light-ui.json</a>    sample settings.json for minimal loading of kepler plugins templates</li>
+<li><a href="https://github.com/Keplerjs/Kepler/tree/master/private/settings.sample.json" target="_blank" rel="external">settings.sample.json</a>    sample settings.json for standard kepler app</li>
+</ul>
+<h4 id="Development-of-plugins"><a href="#Development-of-plugins" class="headerlink" title="Development of plugins"></a>Development of plugins</h4><ul>
+<li><a href="https://github.com/Keplerjs/Kepler/tree/master/private/packages.publish.sh" target="_blank" rel="external">packages.publish.sh</a>        publish in atmospherejs.com all kepler plugins in github organization</li>
+<li><a href="https://github.com/Keplerjs/Kepler/tree/master/private/packages.pull.sh" target="_blank" rel="external">packages.pull.sh</a>            pull all kepler plugins</li>
+<li><a href="https://github.com/Keplerjs/Kepler/tree/master/private/packages.push.sh" target="_blank" rel="external">packages.push.sh</a>            push all kepler plugins</li>
+<li><a href="https://github.com/Keplerjs/Kepler/tree/master/private/packages.status.sh" target="_blank" rel="external">packages.status.sh</a>        git staus in all kepler plugins</li>
+<li><a href="https://github.com/Keplerjs/Kepler/tree/master/private/packages.unpublish.sh" target="_blank" rel="external">packages.unpublish.sh</a>    unpublish all kepler plugins in atmospherejs.com</li>
+<li><a href="https://github.com/Keplerjs/Kepler/tree/master/private/placeholders.list.sh" target="_blank" rel="external">placeholders.list.sh</a>    find all placeholders defined in all templates</li>
+</ul>
+<h4 id="Production-environment"><a href="#Production-environment" class="headerlink" title="Production environment"></a>Production environment</h4><ul>
+<li><a href="https://github.com/Keplerjs/Kepler/tree/master/private/build.sh" target="_blank" rel="external">build.sh</a>                            create meteor bundle, a standard NodeJs application of a kepler instance</li>
+<li><a href="https://github.com/Keplerjs/Kepler/tree/master/private/kepler.daemon.sh" target="_blank" rel="external">kepler.daemon.sh</a>            run production kepler instance at startup in linux systems</li>
+<li><a href="https://github.com/Keplerjs/Kepler/tree/master/private/nginx.sample.conf" target="_blank" rel="external">nginx.sample.conf</a>            sample configuration for use nginx as web server proxy</li>
+</ul>
+<h4 id="Cloud-deployments"><a href="#Cloud-deployments" class="headerlink" title="Cloud deployments"></a>Cloud deployments</h4><ul>
+<li><a href="https://github.com/Keplerjs/Kepler/tree/master/private/deploy.heroku.sh" target="_blank" rel="external">deploy.heroku.sh</a>            deploy kepler instance in herokuapp.com</li>
+</ul>
+<h2 id="Building"><a href="#Building" class="headerlink" title="Building"></a>Building</h2><p>To preparing for production environment following the guidelines of meteor applications, the complete documentation is available here<br><a href="https://guide.meteor.com/deployment.html" target="_blank" rel="external">Meteor deployment docs</a></p>
+<p>For custom environment, run this command to create a generic NodeJS bundle<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">meteor build --directory <span class="tag">&lt;<span class="name">build-output-directory</span>&gt;</span> --server=<span class="tag">&lt;<span class="name">host</span>&gt;</span>:<span class="tag">&lt;<span class="name">port</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p><em>host</em> and <em>port</em> should be the public address of the server you want your app to connect to. This will generate a directory at <em>build-output-directory</em>, which includes a server bundle directory and the project source for each targeted mobile platform in the /ios and /android directories.<br>To run main.js file using nodejs command:<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nodejs <span class="tag">&lt;<span class="name">build-output-directory</span>&gt;</span>/main.js</span><br></pre></td></tr></table></figure></p>
 
     </div>
   </div>
