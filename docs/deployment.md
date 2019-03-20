@@ -12,32 +12,11 @@ Being KeplerJs a framework built above MeteorJs the system requirements are the 
 * RAM >2GB(required ÷800MB of free RAM for build process).
 * Disk Usage kepler installed + libraries min ÷400MB, empty database with minimal collections min ÷500MB
 
-#### System software
-
-from root:
-```
-apt install curl git build-essential htop screen imagemagick
-```
+#### Software
 
 * database MongoDB(versions 3.x)
-from root:
-```
-apt install mongodb mongo-tools
-```
-
 * NodeJs (versions 6.x/8.x/10.x)
-from root:
-```
-curl -sL https://deb.nodesource.com/setup_10.x -o ./nodesource_setup.sh
-apt update
-apt install nodejs
-```
-
 * MeteorJs(latest version)
-from root:
-```
-curl https://install.meteor.com/ | sh
-```
 
 ## Scripts and Configurations
 
