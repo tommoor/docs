@@ -42,4 +42,3 @@ The directory [/private](https://github.com/Keplerjs/Kepler/tree/master/private)
 
 #### Cloud deployments
 * [deploy.heroku.sh](https://github.com/Keplerjs/Kepler/tree/master/private/deploy.heroku.sh)			deploy kepler instance in herokuapp.com
-

@@ -40,3 +40,4 @@ Created by [Stefano Cudini](https://github.com/stefanocudini) [@zakis](http://tw
 and other [contributors](https://github.com/Keplerjs/Kepler/graphs/contributors)
 
 Distributed under the *BSD-2-Clause* License.
+
