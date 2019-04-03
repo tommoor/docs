@@ -34,5 +34,9 @@ In the near future Kepler as any open source projects will follow a community-dr
 "Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected."
 Eric S. Raymond
 
-### Author
-Created by [Stefano Cudini](https://github.com/stefanocudini) [@zakis](http://twitter.com/zakis) and other [contributors](https://github.com/Keplerjs/Kepler/graphs/contributors) under the [MIT](http://opensource.org/licenses/MIT) license.
+### Copyright
+
+Created by [Stefano Cudini](https://github.com/stefanocudini) [@zakis](http://twitter.com/zakis)
+and other [contributors](https://github.com/Keplerjs/Kepler/graphs/contributors)
+
+Distributed under the *BSD-2-Clause* License.
