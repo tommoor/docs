@@ -36,8 +36,7 @@ Eric S. Raymond
 
 ### Copyright
 
-Created by [Stefano Cudini](https://github.com/stefanocudini) [@zakis](http://twitter.com/zakis)
-and other [contributors](https://github.com/Keplerjs/Kepler/graphs/contributors)
+Created by [Stefano Cudini](https://github.com/stefanocudini) [@zakis](http://twitter.com/zakis) and other [contributors](https://github.com/Keplerjs/Kepler/graphs/contributors)
 
 Distributed under the *BSD-2-Clause* License.
 
