@@ -255,6 +255,13 @@
             
               
               <li class="item-toc ">
+                <a href="configurations.html" class="sidebar-link ">
+                  <span>Configurations</span>
+                </a>
+              </li>
+            
+              
+              <li class="item-toc ">
                 <a href="schemas.html" class="sidebar-link ">
                   <span>Schemas</span>
                 </a>
@@ -278,13 +285,6 @@
               <li class="item-toc ">
                 <a href="modules.html" class="sidebar-link ">
                   <span>Modules</span>
-                </a>
-              </li>
-            
-              
-              <li class="item-toc ">
-                <a href="configurations.html" class="sidebar-link ">
-                  <span>Configurations</span>
                 </a>
               </li>
             
@@ -352,9 +352,9 @@
 <li>Disk Usage kepler installed + libraries min ÷400MB, empty database with minimal collections min ÷500MB</li>
 </ul>
 <h4 id="Software"><a href="#Software" class="headerlink" title="Software"></a>Software</h4><ul>
-<li>database MongoDB (versions 3.x)</li>
+<li>database MongoDB(versions 3.x)</li>
 <li>NodeJs (versions 6.x/8.x/10.x)</li>
-<li>MeteorJs (latest version)</li>
+<li>MeteorJs(latest version)</li>
 </ul>
 <h2 id="Scripts-and-Configurations"><a href="#Scripts-and-Configurations" class="headerlink" title="Scripts and Configurations"></a>Scripts and Configurations</h2><p>The directory <a href="https://github.com/Keplerjs/Kepler/tree/master/private" target="_blank" rel="external">/private</a>                         contains usefull scripts and configurations for development/production environments:</p>
 <h4 id="Development-environment"><a href="#Development-environment" class="headerlink" title="Development environment"></a>Development environment</h4><ul>
@@ -378,9 +378,6 @@
 <h4 id="Cloud-deployments"><a href="#Cloud-deployments" class="headerlink" title="Cloud deployments"></a>Cloud deployments</h4><ul>
 <li><a href="https://github.com/Keplerjs/Kepler/tree/master/private/deploy.heroku.sh" target="_blank" rel="external">deploy.heroku.sh</a>            deploy kepler instance in herokuapp.com</li>
 </ul>
-<h2 id="Building"><a href="#Building" class="headerlink" title="Building"></a>Building</h2><p>To preparing for production environment following the guidelines of meteor applications, the complete documentation is available here<br><a href="https://guide.meteor.com/deployment.html" target="_blank" rel="external">Meteor deployment docs</a></p>
-<p>For custom environment, run this command to create a generic NodeJS bundle<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">meteor build --directory <span class="tag">&lt;<span class="name">build-output-directory</span>&gt;</span> --server=<span class="tag">&lt;<span class="name">host</span>&gt;</span>:<span class="tag">&lt;<span class="name">port</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
-<p><em>host</em> and <em>port</em> should be the public address of the server you want your app to connect to. This will generate a directory at <em>build-output-directory</em>, which includes a server bundle directory and the project source for each targeted mobile platform in the /ios and /android directories.<br>To run main.js file using nodejs command:<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nodejs <span class="tag">&lt;<span class="name">build-output-directory</span>&gt;</span>/main.js</span><br></pre></td></tr></table></figure></p>
 
     </div>
   </div>
