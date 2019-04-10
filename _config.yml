@@ -35,11 +35,11 @@ sidebar_categories:
   
   Api:
     - namespace
+    - configurations    
     - schemas
     - filters
     - models
     - modules
-    - configurations
     - templates
     - plugin-js    
 
