@@ -21,8 +21,9 @@ Contains *methods*, *subscriptions* and *business logic* that can be used in oth
 * [K.Profile](https://github.com/Keplerjs/Kepler/tree/master/packages/core/client/Profile.js)
   define methods logic and manage data of the current *logged user*
 * [K.Map](https://github.com/Keplerjs/Kepler/tree/master/packages/core/client/Map.js)
-  manages and builds the primary [Leaflet](http://leafletjs.com/) map
-  - [K.Map.controls](https://github.com/Keplerjs/Kepler/tree/master/packages/core/client/Map_controls.js)
+  the wrapper for [Leaflet](http://leafletjs.com/) map
+  - [K.Map.map](https://github.com/Keplerjs/Kepler/tree/master/packages/core/client/Map.js) instance of Leaflet map
+  - [K.Map.controls](https://github.com/Keplerjs/Kepler/tree/master/packages/core/client/Map_controls.js)- [K.Map.controls](https://github.com/Keplerjs/Kepler/tree/master/packages/core/client/Map_controls.js)
   - [K.Map.layers](https://github.com/Keplerjs/Kepler/tree/master/packages/core/client/Map_layers.js)
     - [K.Map.layers.baselayer](https://github.com/Keplerjs/Kepler/tree/master/packages/core/client/Map_layers.js) current base tile layer
     - [K.Map.layers.users](https://github.com/Keplerjs/Kepler/tree/master/packages/core/client/Map_layers.js) marker users layer group
