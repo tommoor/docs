@@ -24,3 +24,8 @@ Contains *methods*, *subscriptions* and *business logic* that can be used in oth
   manages and builds the primary [Leaflet](http://leafletjs.com/) map
   - [K.Map.controls](https://github.com/Keplerjs/Kepler/tree/master/packages/core/client/Map_controls.js)
   - [K.Map.layers](https://github.com/Keplerjs/Kepler/tree/master/packages/core/client/Map_layers.js)
+    - [K.Map.layers.baselayer](https://github.com/Keplerjs/Kepler/tree/master/packages/core/client/Map_layers.js) current base tile layer
+    - [K.Map.layers.users](https://github.com/Keplerjs/Kepler/tree/master/packages/core/client/Map_layers.js)  marker users layer
+    - [K.Map.layers.places](https://github.com/Keplerjs/Kepler/tree/master/packages/core/client/Map_layers.js) marker places layer 
+    - [K.Map.layers.geojson geojson](https://github.com/Keplerjs/Kepler/tree/master/packages/core/client/Map_layers.js) layer to load pois,tracks, and more
+    
