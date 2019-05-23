@@ -27,7 +27,7 @@ The following environment variables are required:
 MONGO_URL="mongodb://localhost:27017/<DBNAME>"
 MAIL_URL="smtp://localhost:25"
 METEOR_SETTINGS=$(cat settings.json)
-ROOT_URL="http://<APPDOMAIN>"
+ROOT_URL="https://<APPDOMAIN>"
 BIND_IP=<IPADDRESS>
 PORT=<PORT>
 ```

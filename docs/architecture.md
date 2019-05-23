@@ -2,7 +2,7 @@
 title: Architecture
 ---
 
-Kepler uses a [package-based](http://experimentsinmeteor.com/package-based-architecture/) architecture, meaning that the entirety of its codebase resides in [/packages](https://github.com/Keplerjs/Kepler/tree/master/packages) path, then each complex module or a group of modules in Kepler are organized in Meteor packages which can be added or removed at runtime.
+Kepler uses a [package-based](https://medium.com/keplerjs/converting-a-meteorjs-project-to-a-package-based-architecture-82c23856a3b9) architecture, meaning that the entirety of its codebase resides in [/packages](https://github.com/Keplerjs/Kepler/tree/master/packages) path, then each complex module or a group of modules in Kepler are organized in Meteor packages which can be added or removed at runtime.
 In addition to this standard design adopted by many large-scale Meteor applications KeplerJs implements a [plugins mechanism](architecture.html#Plugins-packages) that allows you to split different pluggable features into different packages, this option facilitates the work of developers that will be able to connect their services or include their customizations without editing the main source code.
 
 ## Base packages
