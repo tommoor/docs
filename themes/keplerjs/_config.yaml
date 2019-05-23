@@ -3,16 +3,16 @@ logo:
   #subbrand: images/logo-apollo-subbrands-developers-space.svg
   src: 'images/logo-300.png'
   title: KepleJs Docs
-  url: http://docs.keplerjs.io/
+  url: https://docs.keplerjs.io/
 
 favicon: images/favicon.ico
 
 nav_links:
   'Website':
-    url: http://keplerjs.io/
+    url: https://keplerjs.io/
   'GitHub':
     url: https://github.com/keplerjs/kepler
   'Twitter':
     url: https://twitter.com/Kepler_js
   'Blog':
-    url: https://medium.com/keplerjs
+    url: https://blog.keplerjs.io/
