@@ -4,7 +4,28 @@
   <url>
     <loc>http://docs.keplerjs.io/architecture.html</loc>
     
-    <lastmod>2019-05-23T21:36:09.288Z</lastmod>
+    <lastmod>2019-05-23T21:39:32.280Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.keplerjs.io/modules.html</loc>
+    
+    <lastmod>2019-05-23T21:39:08.880Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.keplerjs.io/plugins.html</loc>
+    
+    <lastmod>2019-05-23T21:36:58.124Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.keplerjs.io/themes.html</loc>
+    
+    <lastmod>2019-05-23T21:36:58.124Z</lastmod>
     
   </url>
   
@@ -26,13 +47,6 @@
     <loc>http://docs.keplerjs.io/technology.html</loc>
     
     <lastmod>2019-05-23T20:01:38.014Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.keplerjs.io/modules.html</loc>
-    
-    <lastmod>2019-05-23T20:01:29.886Z</lastmod>
     
   </url>
   
@@ -93,20 +107,6 @@
   </url>
   
   <url>
-    <loc>http://docs.keplerjs.io/package-ui.html</loc>
-    
-    <lastmod>2019-02-06T20:33:24.083Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.keplerjs.io/plugins.html</loc>
-    
-    <lastmod>2019-02-06T20:33:24.083Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.keplerjs.io/templates.html</loc>
     
     <lastmod>2019-02-06T20:33:24.083Z</lastmod>
@@ -114,9 +114,9 @@
   </url>
   
   <url>
-    <loc>http://docs.keplerjs.io/themes.html</loc>
+    <loc>http://docs.keplerjs.io/package-ui.html</loc>
     
-    <lastmod>2018-10-31T17:19:19.973Z</lastmod>
+    <lastmod>2019-02-06T20:33:24.083Z</lastmod>
     
   </url>
   

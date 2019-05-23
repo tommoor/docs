@@ -38,7 +38,7 @@
       </span>
     </div>
     <div class="nav-item">
-      <a class="logo-wrapper" href="http://docs.keplerjs.io/" title="KepleJs Docs "  >
+      <a class="logo-wrapper" href="https://docs.keplerjs.io/" title="KepleJs Docs "  >
         <img src="images/logo-300.png" alt="KepleJs Docs" class="logo"/>
         <span>KepleJs Docs</span>
       </a>
@@ -49,7 +49,7 @@
     
       
       <div class="nav-item show-desktop false ">
-        <a class="link" href="http://keplerjs.io/"  >
+        <a class="link" href="https://keplerjs.io/"  >
           <span>Website</span>
         </a>
       </div>
@@ -70,7 +70,7 @@
     
       
       <div class="nav-item show-desktop false ">
-        <a class="link" href="https://medium.com/keplerjs"  >
+        <a class="link" href="https://blog.keplerjs.io/"  >
           <span>Blog</span>
         </a>
       </div>
@@ -82,13 +82,13 @@
 <div class="sidebar">
   <div class="panel">
     <div class="panel-item">
-      <a class="" href="http://docs.keplerjs.io/" title="KepleJs Docs"  >
+      <a class="" href="https://docs.keplerjs.io/" title="KepleJs Docs"  >
         <span>KepleJs Docs </span>
       </a>
     </div>
     
       <div class="panel-item "">
-        <a class="" href="http://keplerjs.io/"  >
+        <a class="" href="https://keplerjs.io/"  >
           <span>Website</span>
         </a>
       </div>
@@ -106,7 +106,7 @@
       </div>
     
       <div class="panel-item "">
-        <a class="" href="https://medium.com/keplerjs"  >
+        <a class="" href="https://blog.keplerjs.io/"  >
           <span>Blog</span>
         </a>
       </div>
@@ -346,6 +346,9 @@
 
     <div class="document-formatting">
       <p>A theme is the easiest way to adapt Kepler to your use case, it can be defined as a <a href="plugin-js.html">Kepler plugin</a> and can be contain static resources and new pages embedded in the application’s routing.</p>
+<p>To create new themes a good idea is to extend what is already present in the plugin Kepler <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/theme" target="_blank" rel="external">theme</a>.<br>The plugin <em>theme</em> is a simple Kepler plugin, it simply adds image files(assets) and css code to the basic <em>Kepler User Interface</em> defined in the meteor package that contains the <a href="https://github.com/Keplerjs/Kepler/tree/master/packages/core-ui" target="_blank" rel="external">core-ui</a> basic html structure.</p>
+<p>To observe the changes made from the <em>theme plugin</em> to the Kepler interface you can try with the command:<br><code>meteor remove Keplerjs:theme</code><br>everything will continue to work but you will have a Kepler instance ugly and skeletal with the basic css of the libraries.</p>
+<p>A Kepler plugin that implements a theme is the fastest way with which you can have your own customized Kepler instance without breaking your head on the business logic.<br>only a copy of Kepler will be needed with its basic plugins and then with the “meteor add mytheme-Kepler” command to add and keep.</p>
 
     </div>
   </div>
