@@ -2,21 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://docs.keplerjs.io/production.html</loc>
+    <loc>http://docs.keplerjs.io/architecture.html</loc>
     
-    <lastmod>2019-04-10T22:46:09.682Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.keplerjs.io/deployment.html</loc>
-    
-    <lastmod>2019-04-10T22:46:09.682Z</lastmod>
+    <lastmod>2019-05-23T21:36:09.288Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://docs.keplerjs.io/index.html</loc>
+    
+    <lastmod>2019-05-23T20:02:38.141Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.keplerjs.io/plugin-js.html</loc>
+    
+    <lastmod>2019-05-23T20:02:00.286Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.keplerjs.io/technology.html</loc>
+    
+    <lastmod>2019-05-23T20:01:38.014Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.keplerjs.io/modules.html</loc>
+    
+    <lastmod>2019-05-23T20:01:29.886Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.keplerjs.io/settings.html</loc>
+    
+    <lastmod>2019-05-23T19:52:52.545Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.keplerjs.io/production.html</loc>
+    
+    <lastmod>2019-05-23T19:52:41.873Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.keplerjs.io/deployment.html</loc>
     
     <lastmod>2019-04-10T22:46:09.682Z</lastmod>
     
@@ -37,13 +72,6 @@
   </url>
   
   <url>
-    <loc>http://docs.keplerjs.io/settings.html</loc>
-    
-    <lastmod>2019-03-19T19:12:15.679Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.keplerjs.io/filters.html</loc>
     
     <lastmod>2019-03-19T19:05:32.515Z</lastmod>
@@ -58,21 +86,7 @@
   </url>
   
   <url>
-    <loc>http://docs.keplerjs.io/templates.html</loc>
-    
-    <lastmod>2019-02-06T20:33:24.083Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.keplerjs.io/namespace.html</loc>
-    
-    <lastmod>2019-02-06T20:33:24.083Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.keplerjs.io/architecture.html</loc>
     
     <lastmod>2019-02-06T20:33:24.083Z</lastmod>
     
@@ -93,6 +107,13 @@
   </url>
   
   <url>
+    <loc>http://docs.keplerjs.io/templates.html</loc>
+    
+    <lastmod>2019-02-06T20:33:24.083Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://docs.keplerjs.io/themes.html</loc>
     
     <lastmod>2018-10-31T17:19:19.973Z</lastmod>
@@ -107,13 +128,6 @@
   </url>
   
   <url>
-    <loc>http://docs.keplerjs.io/plugin-js.html</loc>
-    
-    <lastmod>2018-03-23T23:20:48.399Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://docs.keplerjs.io/package-i18n.html</loc>
     
     <lastmod>2018-03-20T00:52:24.192Z</lastmod>
@@ -124,13 +138,6 @@
     <loc>http://docs.keplerjs.io/package-lib.html</loc>
     
     <lastmod>2018-03-20T00:50:20.190Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.keplerjs.io/modules.html</loc>
-    
-    <lastmod>2018-03-20T00:22:18.518Z</lastmod>
     
   </url>
   
@@ -159,13 +166,6 @@
     <loc>http://docs.keplerjs.io/faq.html</loc>
     
     <lastmod>2017-09-20T06:50:49.457Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.keplerjs.io/technology.html</loc>
-    
-    <lastmod>2017-09-20T05:35:12.352Z</lastmod>
     
   </url>
   
