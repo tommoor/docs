@@ -9,6 +9,12 @@ The plugins installed can add more features to the platform then refer to the  [
 - email verification
 - password changing
 
+### Places creations
+- add new place by location
+- add or edit geometry of a place(point,polyline,polygon)
+- import data from Openstreetmap in a new place
+- import multiple places from standard geojson file
+
 ### User profile
 - GPS location on mobile device
 - checkin / checkout of users in the places
