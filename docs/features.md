@@ -5,6 +5,7 @@ For complex development reasons they have been included in the [base packages](a
 The plugins installed can add more features to the platform then refer to the  [plugins](plugins.html) documentation to learn more.
 
 ### User registration and login
+- signup by external social accounts
 - email verification
 - password changing
 
@@ -15,13 +16,12 @@ The plugins installed can add more features to the platform then refer to the  [
 - user settings
 - history of places visits
 
-
 ### Users relationships
 - requests / confirmations friendship
 - blocking / reporting of other users
 
 ### Searching
-- users by name
+- users by name, date of signup
 - places by name, date and proximity
 
 ### Internationalization
