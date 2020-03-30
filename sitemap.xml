@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://docs.keplerjs.io/features.html</loc>
+    
+    <lastmod>2020-03-30T16:40:19.068Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://docs.keplerjs.io/schemas.html</loc>
+    
+    <lastmod>2020-03-30T16:11:25.003Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://docs.keplerjs.io/architecture.html</loc>
     
     <lastmod>2019-05-23T21:39:32.280Z</lastmod>
@@ -16,14 +30,14 @@
   </url>
   
   <url>
-    <loc>http://docs.keplerjs.io/plugins.html</loc>
+    <loc>http://docs.keplerjs.io/themes.html</loc>
     
     <lastmod>2019-05-23T21:36:58.124Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://docs.keplerjs.io/themes.html</loc>
+    <loc>http://docs.keplerjs.io/plugins.html</loc>
     
     <lastmod>2019-05-23T21:36:58.124Z</lastmod>
     
@@ -93,14 +107,7 @@
   </url>
   
   <url>
-    <loc>http://docs.keplerjs.io/schemas.html</loc>
-    
-    <lastmod>2019-03-19T19:05:32.515Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.keplerjs.io/namespace.html</loc>
+    <loc>http://docs.keplerjs.io/package-ui.html</loc>
     
     <lastmod>2019-02-06T20:33:24.083Z</lastmod>
     
@@ -114,7 +121,7 @@
   </url>
   
   <url>
-    <loc>http://docs.keplerjs.io/package-ui.html</loc>
+    <loc>http://docs.keplerjs.io/namespace.html</loc>
     
     <lastmod>2019-02-06T20:33:24.083Z</lastmod>
     
@@ -145,13 +152,6 @@
     <loc>http://docs.keplerjs.io/models.html</loc>
     
     <lastmod>2018-03-20T00:21:51.527Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://docs.keplerjs.io/features.html</loc>
-    
-    <lastmod>2018-03-20T00:21:20.403Z</lastmod>
     
   </url>
   
