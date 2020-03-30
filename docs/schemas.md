@@ -8,23 +8,32 @@ Define the base structure their properties, field's type and default values, for
 All core schemas is defined in a simple JSON file [schemas.js](https://github.com/Keplerjs/Kepler/tree/master/packages/core/modules/schemas.js), in the future it would be used [JSON Schema](https://json-schema.org/) as a standard definition of these structures and validation.
 Usually in some Kepler plugins these can be extended adding fields, through the *schemas* option inside the [plugin.js](plugin-js.html). 
 
+The basic place structure is compatible with geojson standard with more other properties added by core module or by plugins.
+
 * **K.schemas.place:**
 	```
 	place: {
+		type: 'Feature',   //only for GeoJSON standard compatibility
+		properties: {},	   //only for GeoJSON standard compatibility
+		geometry: {	   	   //GeoJSON geometry for the place(default is Point)
+			type: 'Point',   //Point is default(support all geojson types)
+			coordinates: []  //default is loc.reverse()
+		},
+		loc: [],		   //base location coordinates lat,lng		
 		name: '',	       //place title
 		createdAt: '',	   //new Date() of place insert
 		userId: '',	   	   //user to created it
 		active:0,	       //visible in map
 		indoor:0,		   //is an indoor place
-		loc: [],		   //coordinates lat,lng
 		checkins: [],	   //users inside place	
 		hist: [],		   //recents checkins
-		desc: '',		   //long description
-		warn: '',          //description of alerts and dangers
-		urls: [],	   	   //websites url of place
-		emails: [],		   //contanct emails for place
-		source: {},		   //describe source of data
-	}
+		desc: '',		   //description
+		warn: '',          //warnings and dangers
+		url: '',	   	   //websites url of place
+		source: {	   	   //describe source of data
+			type: ''		   //describe type of source data(osm,kepler,import)
+		}
+	},	
 	```
 
 * **K.schemas.user:**
@@ -33,29 +42,36 @@ Usually in some Kepler plugins these can be extended adding fields, through the 
 		name: '',		   //display name	
 		username: '',	   //username used in urls
 		createdAt: '',	   //new Date() of user insert
-		emails: [], 		//alla emails of user
+		emails: [], 
+		mood: '',		    //status mood message, shown in profile
+		url: '',			//user web sites and social
 		profile: {},		//user data
 		avatar: '',		    //user photo
-		mood: '',		    //status mood message, shown in profile
 		loginAt: '',	    //last date of login
-		status: '',         //visibility online of user(online,offline,await)
-		statusDefault: '',  
+		loginIp: '',		//last ip from login
+		status: '',        
+		statusDefault: '', 
 		statusConnection:'',
-		gender: '',        //gender of user male,female,others
-		city: '',          //city to live
-		lang: 'it',        //language
+		gender: '',
+		city: '',
+		lang: 'it',
 		loc: null,		   //current gps position
 		loclast: null,	   //lat gps position
 		checkin: null,	   //id Place where I am
-		mob:0,			   //if my device is mobile
+		mob: false,			   //if my device is mobile
 		friends: [],	   //ids users friends
 		usersPending: [],  //ids users that I send request
 		usersReceive: [],  //ids users that I receive request
 		usersBlocked: [],  //ids users that I blocked
 		hist: [],		   //last places visited
-		source: {},		   //source of registration by single signon		
-		settings: {        //user settings for platform
+		source: {		   //source of registration by single signon	
+			service: '',
+			url: '',
+			options: {}	
+		},	
+		settings: {
 			map: {
+				query: null,
 				layer: null,
 				center: null  //last center of map
 			}
